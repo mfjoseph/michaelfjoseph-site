@@ -1,0 +1,38 @@
+---
+pagetitle: "Michael F. Joseph"
+toc: false
+---
+
+::: {.site-hero}
+[Michael F. Joseph]{.hero-name}
+
+[International Relations · U.S. Foreign Policy · Applied Methodology]{.hero-fields}
+:::
+
+::: {.intro-grid}
+![](images/profile/headshot.jpg){.headshot fig-alt="Michael F. Joseph"}
+
+::: {.intro-copy}
+**Assistant Professor of Political Science** (and Data Science, by courtesy), UC San Diego.
+
+I study war, national security, secrecy, and modern technology. My research has
+two strands. In the first, I integrate the historical and cultural determinants
+of state motives into strategic models of great-power politics. In the second, I
+explore how modern technology and secrecy create opportunities and challenges for
+the intelligence community. This work has interested policymakers in Washington
+for its insights on Sino-American relations and on the use of digital technology
+in intelligence analysis.
+
+Before my Ph.D., I worked as a foreign-policy consultant in Iraq, Australia,
+Jordan, and the United States.
+
+My book, *The Origins of Great Power Rivalries*, is forthcoming with Cambridge
+University Press (2026). You can read my published work on the
+[Research](research.qmd) page, and I summarize new articles in short videos on my
+[YouTube channel](https://www.youtube.com/@Dr.MichaelJoseph).
+
+::: {.connect}
+[Email](mailto:mfjoseph@ucsd.edu) · [CV](files/cv/CV.pdf) · [YouTube](https://www.youtube.com/@Dr.MichaelJoseph) · [Google Scholar](#) · [X](https://x.com/m0joseph) · [LinkedIn](https://www.linkedin.com/in/michael-joseph-82a5ba18/) · [Facebook](https://www.facebook.com/michael.joseph.1048554) · [Bluesky](https://bsky.app/profile/profmickeyj.bsky.social)
+:::
+:::
+:::

@@ -1,0 +1,54 @@
+---
+title: "Research"
+---
+
+```{r setup, include=FALSE}
+source("R/render-pubs.R")
+```
+
+## Book
+
+::: {.book-feature}
+
+::: {.book-covers}
+<figure>
+![](images/book/cover-published.jpg)
+<figcaption class="book-caption">Published cover</figcaption>
+</figure>
+<figure>
+![](images/book/cover-alternate.jpg)
+<figcaption class="book-caption">Alternate (unpublished) cover</figcaption>
+</figure>
+:::
+
+**The Origins of Great Power Rivalries**
+Cambridge University Press — *in press, March 2026*
+
+<!-- Replace this description with the book blurb. -->
+A short description of the book goes here: the central question, the argument,
+and why it matters for how we understand great-power competition. Two or three
+sentences is plenty — it sits right under the covers and above the video.
+
+<!-- Replace the URL below with your book talk / trailer. The player box
+     appears automatically once the link is a real YouTube URL. -->
+{{< video https://www.youtube.com/watch?v=YOUR_VIDEO_ID >}}
+
+:::
+
+## Published Articles
+
+```{r, results='asis', echo=FALSE}
+render_pubs("published")
+```
+
+## Policy & Commentary
+
+```{r, results='asis', echo=FALSE}
+render_pubs("policy_commentary")
+```
+
+## Select Working Papers
+
+```{r, results='asis', echo=FALSE}
+render_pubs("working_papers")
+```

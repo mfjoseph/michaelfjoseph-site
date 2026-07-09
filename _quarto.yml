@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Michael F. Joseph"
+  description: >-
+    Michael F. Joseph — Assistant Professor of Political Science, UC San Diego.
+    Research on war, national security, secrecy, and modern technology.
+  site-url: "https://www.michaelfjoseph.com"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching-learning.qmd
+        text: Teaching/Learning
+      - href: policy.qmd
+        text: Policy
+      - href: fun-docs.qmd
+        text: Fun Docs
+    right:
+      - href: files/cv/CV.pdf
+        text: CV
+        target: _blank
+      - icon: envelope
+        href: "mailto:mfjoseph@ucsd.edu"
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Michael F. Joseph"
+    right:
+      - text: "Email"
+        href: "mailto:mfjoseph@ucsd.edu"
+      - text: "X"
+        href: "https://x.com/m0joseph"
+      - text: "LinkedIn"
+        href: "https://www.linkedin.com/in/michael-joseph-82a5ba18/"
+      - text: "Facebook"
+        href: "https://www.facebook.com/michael.joseph.1048554"
+      - text: "Bluesky"
+        href: "https://bsky.app/profile/profmickeyj.bsky.social"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme/custom.scss
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 900px
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+
+engine: knitr

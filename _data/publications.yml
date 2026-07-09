@@ -1,0 +1,131 @@
+# =====================================================================
+#  PUBLICATIONS DATA  —  this single file drives the Research page.
+#
+#  To add a paper, copy an entry below and fill in the fields.
+#  Every field except `title` is OPTIONAL — omit any you don't need
+#  and that link simply won't appear.
+#
+#  Fields:
+#    title:        (required) the paper title
+#    authors:      e.g. "with Jane Doe & John Roe"  (omit if solo)
+#    journal:      journal name (published articles)
+#    year:         year
+#    status_note:  small note after the venue, e.g. "accepted", "online"
+#    award:        optional award line (shows with a star)
+#    article_url:  link to the published article
+#    ungated:      true  -> adds a small "(ungated)" note after Article
+#    preprint_url: link to a pre-print PDF (drop the PDF in files/preprints/)
+#    ris:          path to a citation file, e.g. files/ris/mypaper.ris
+#                  (export from Mendeley -> this becomes the "Cite me" button)
+#    video_url:    YouTube link -> shows a "Video" link
+#    abstract:     text -> shows a collapsible "Abstract" toggle
+#    status:       (working papers only) free text, e.g. "R&R, APSR"
+# =====================================================================
+
+published:
+
+  - title: "The Domestic Sources of International Trust"
+    authors: "with Roseanne McManus & Michael Goldfien"
+    journal: "American Political Science Review"
+    year: 2026
+    status_note: "accepted"
+
+  - title: "Elite Partisan Disagreement and Military Victory: Evidence from South Korean Battle Experiments"
+    authors: "with Joon Chung"
+    journal: "American Political Science Review"
+    year: 2026
+    status_note: "Registered Report, online"
+    award: "Best Paper, Conflict Processes Section, APSA"
+    article_url: "https://www.cambridge.org/core/journals/american-political-science-review/article/elite-partisan-disagreement-and-military-victory-evidence-from-south-korean-battle-experiments/82E121E0E6B5E32166C08E387876EAB6"
+
+  - title: "Rapid Power Shifts and Peace: A Theory of Grand Bargains"
+    authors: "with Mathias Frendem & William Spaniel"
+    journal: "British Journal of Political Science"
+    year: 2025
+    article_url: "https://www.cambridge.org/core/journals/british-journal-of-political-science/article/explaining-peace-during-long-and-rapid-power-shifts-a-theory-of-grand-bargains/5B28F3BDE527ECB90B2C47C74FFE4774"
+
+  - title: "Secret Innovation"
+    authors: "with Michael Poznansky"
+    journal: "International Organization"
+    year: 2024
+    # NOTE: this ungated PDF currently lives on the old Wix site and will
+    # break when you move hosts. Re-save the PDF into files/preprints/ and
+    # point preprint_url at it (e.g. files/preprints/secret-innovation.pdf).
+    preprint_url: "https://www.michaelfjoseph.com/_files/ugd/e0f145_20882bf1e07d4f5b9136c43e6825ec0f.pdf"
+
+  - title: "When Do Leader Attributes Matter? Evidence from the President's Daily Brief"
+    authors: "with Michael Goldfien & Daniel Krcmaric"
+    journal: "Conflict Management and Peace Science"
+    year: 2024
+    award: "Palmer Prize (2024)"
+    article_url: "https://doi.org/10.1177/07388942231196109"
+
+  # ---- Example fully-populated entry (all optional fields shown) --------
+  - title: "Domestic Sources of International Reputation"
+    authors: "with Michael Goldfien & Roseanne McManus"
+    journal: "American Political Science Review"
+    year: 2023
+    article_url: "https://www.cambridge.org/core/journals/american-political-science-review/article/domestic-sources-of-international-reputation/9CF02D1518EA985D8E5E80A06EB2324F"
+    preprint_url: "https://www.michaelfjoseph.com/_files/ugd/e0f145_5fd79cd99f5d443f85310e45ef88778b.pdf"
+    ris: "files/ris/domestic-sources-reputation-2023.ris"
+    # video_url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    abstract: >-
+      (Placeholder abstract, so you can see how the drop-down looks — replace
+      with the real one.) Do domestic audiences shape how states build
+      international reputations? We argue that leaders' reputational incentives
+      are conditioned by the domestic political costs of backing down, and test
+      the argument with survey and archival evidence.
+
+  - title: "Do Different Coercive Strategies Help or Hurt Deterrence Success?"
+    journal: "International Studies Quarterly"
+    year: 2023
+    article_url: "https://academic.oup.com/isq/article-abstract/67/2/sqad018/7085503"
+
+  - title: "Perceptions of Leadership Importance: Evidence from the President's Daily Brief"
+    authors: "with Michael Goldfien"
+    journal: "Security Studies"
+    year: 2023
+    article_url: "https://www.tandfonline.com/doi/full/10.1080/09636412.2023.2200203"
+
+  - title: "Shooting the Messenger: The Challenge of National Security Whistleblowing"
+    authors: "with Michael Poznansky & William Spaniel"
+    journal: "The Journal of Politics"
+    year: 2022
+    article_url: "https://www.journals.uchicago.edu/doi/abs/10.1086/715595"
+
+  - title: "A Little Bit of Cheap Talk is a Dangerous Thing: States Can Communicate Intentions Persuasively and Raise the Risk of War"
+    journal: "The Journal of Politics"
+    year: 2021
+    award: "Best Paper, Formal Theory Section, APSA (2022)"
+    article_url: "https://www.journals.uchicago.edu/doi/epdf/10.1086/709145"
+
+  - title: "Media Technology, Covert Action, and the Politics of Exposure"
+    authors: "with Michael Poznansky"
+    journal: "Journal of Peace Research"
+    year: 2018
+    article_url: "http://journals.sagepub.com/doi/pdf/10.1177/0022343317731508"
+
+  - title: "Are Coups Really Contagious? An Extreme Bounds Analysis of Political Diffusion"
+    authors: "with Michael K. Miller & Dorothy Ohl"
+    journal: "Journal of Conflict Resolution"
+    year: 2018
+    article_url: "http://jcr.sagepub.com/content/early/2016/05/25/0022002716649232.abstract"
+
+
+policy_commentary:
+
+  - title: "National Security Whistleblower Reform Is a Sticky Wicket"
+    journal: "War on the Rocks"
+    year: 2019
+    article_url: "https://warontherocks.com/2019/09/national-security-whistleblower-reform-is-a-sticky-wicket/"
+
+
+working_papers:
+
+  - title: "Contract Uncertainty and the Resolution of Intractable Disputes"
+    authors: "with Ken Schultz"
+    status: "Under review"
+
+  - title: "Cover Stories"
+    authors: "with Matt Malis"
+    status: "R&R, APSR"

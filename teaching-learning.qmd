@@ -1,0 +1,25 @@
+---
+title: "Teaching/Learning"
+---
+
+I teach on intelligence, technology, data science, and international security — at
+UC San Diego, and previously for policymakers and military audiences.
+
+## Courses — UC San Diego
+
+- *Spies: Intelligence and U.S. National Security* (undergraduate)
+- *Theories of Technology and National Security* (undergraduate)
+- *Data Science for National Security* (undergraduate; cross-listed with the Data Science program)
+- *Field Seminar in International Security* (Ph.D. seminar)
+
+## Courses — Executive & Policymaker
+
+- *Military Applications of Data Science* — Department of Defense (2018)
+- *Interstate Conflict* — U.S. Army contract; officers & government personnel (2015–2016)
+- *Asia–Pacific Security* — U.S. Army contract (2015–2016)
+- *Decision Making in Crisis* — U.S. Army contract (2014–2016)
+
+## Advice for Students
+
+Short, practical posts on research, writing, methods, and navigating the field —
+a running series I'll add to over time. *Coming soon.*

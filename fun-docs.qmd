@@ -1,0 +1,38 @@
+---
+title: "Fun Docs"
+---
+
+From time to time I come across fun or interesting archival documents. I've
+started collecting them here.
+
+## Superpowers: Telekinesis
+
+A CIA-led experiment reporting that one subject displayed paranormal abilities of
+telekinesis — in particular, that he could heat objects by touching them.
+
+<!-- This PDF currently lives on the old Wix site. To keep it after the move,
+     save it into files/fun-docs/ and change the link to a local path. -->
+[Read the document](https://www.michaelfjoseph.com/_files/ugd/e0f145_d5624109e08442a19ae8587d6cef8008.pdf)
+
+## Superpowers: Remote Viewing
+
+A review by the Federation of American Scientists of programs testing whether
+humans can perceive distant objects — a little like Professor X in *X-Men*. The
+report suggests some subjects' estimates were accurate beyond what chance would
+predict.
+
+[irp.fas.org/program/collect/air1995.pdf](https://irp.fas.org/program/collect/air1995.pdf)
+
+## UFOs
+
+A comprehensive review of classified CIA programs on UFOs. Interestingly, the
+Soviets and the PRC ran dedicated UFO programs of their own — and the CIA worked
+hard to spy on them.
+
+[cia.gov/readingroom/docs/DOC_0000838057.pdf](https://www.cia.gov/readingroom/docs/DOC_0000838057.pdf)
+
+## $22 Million Underpants
+
+This year, the IARPA program
+["Smart e-Pants"](https://www.iarpa.gov/research-programs/smart-epants) awarded
+$22 million to build underwear.

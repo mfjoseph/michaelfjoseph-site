@@ -1,0 +1,157 @@
+/*-- scss:defaults --*/
+
+// =====================================================================
+//  BRAND THEME — "Redacted" (see ../branding.md for the full spec)
+//  Split system: dark = brand moments (hero, navbar, footer);
+//  light warm off-white = reading. Pink is an event, not a default.
+//  Fonts are loaded via <link> in _quarto.yml (Poppins + Newsreader).
+// =====================================================================
+
+// ---- palette --------------------------------------------------------
+$ink:          #16181b;   // titles / strong (light surfaces)
+$body-text:    #45484f;   // body text
+$meta:         #74777f;   // bylines, dates, labels
+$muted:        #9a9da4;   // captions, separators
+$rule:         #e5e1d9;   // hairlines / borders
+$paper:        #f7f5f1;   // warm off-white page
+$pink:         #c40064;   // accent on LIGHT surfaces (ration it)
+$pink-bright:  #ff2e9a;   // accent on DARK surfaces only
+$dark:         #000000;
+$dark-text:    #e7e9ed;   // near-white name tint
+$dark-dim:     #9aa0a8;
+
+// ---- fonts ----------------------------------------------------------
+$font-family-sans-serif: 'Poppins', system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-family-serif:      'Newsreader', Georgia, 'Times New Roman', serif;
+$font-family-base:       $font-family-serif;   // body reads in serif
+$headings-font-family:   $font-family-serif;   // titles in serif
+$headings-font-weight:   500;
+
+$font-size-base:   1.05rem;
+$line-height-base: 1.7;
+
+// ---- bootstrap / quarto color mappings ------------------------------
+$body-bg:          $paper;
+$body-color:       $body-text;
+$headings-color:   $ink;
+$primary:          $pink;
+$link-color:       $ink;      // links are dark + underline, not pink
+$link-hover-color: $pink;     // a whisper of pink on hover
+$border-color:     $rule;
+
+$navbar-bg: $dark;
+$navbar-fg: $dark-dim;
+$footer-bg: $dark;
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+// ---- navbar (dark brand moment) ------------------------------------
+.navbar {
+  background: $dark !important;
+  border-bottom: 1px solid #17181b;
+  font-family: $font-family-sans-serif;
+}
+.navbar .navbar-brand { color: $dark-text !important; font-weight: 400; letter-spacing: .04em; }
+.navbar .navbar-brand:hover { color: #fff !important; }
+.navbar .nav-link {
+  color: $dark-dim !important;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-size: .78rem;
+  font-weight: 400;
+}
+.navbar .nav-link:hover, .navbar .nav-link.active { color: #fff !important; }
+
+// ---- footer (dark brand moment) ------------------------------------
+.nav-footer {
+  background: $dark;
+  color: $dark-dim;
+  border-top: none;
+  font-family: $font-family-sans-serif;
+  font-size: .85rem;
+}
+.nav-footer a { color: $dark-dim; text-decoration: none; }
+.nav-footer a:hover { color: #fff; }
+
+// ---- headings ------------------------------------------------------
+h1, h2, h3, .title { font-family: $font-family-serif; color: $ink; font-weight: 500; }
+h2 {
+  border-bottom: 1px solid $rule;
+  padding-bottom: .3rem;
+  margin-top: 2.4rem;
+}
+main a { text-underline-offset: 2px; }
+
+// ---- home hero (dark) ----------------------------------------------
+.site-hero {
+  background: $dark;
+  border-radius: 10px;
+  padding: clamp(2.6rem, 6vw, 4.2rem) clamp(1.4rem, 4vw, 2.6rem);
+  margin: 0 0 2.6rem;
+}
+.hero-name {
+  display: block;
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: $dark-text;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+.hero-fields {
+  display: block;
+  margin-top: 1.1rem;
+  font-family: $font-family-sans-serif;
+  font-weight: 300;
+  color: $pink-bright;
+  font-size: clamp(.95rem, 2.1vw, 1.3rem);
+  letter-spacing: .02em;
+}
+
+// ---- intro block ---------------------------------------------------
+.intro-grid { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+.intro-grid > p { margin: 0; flex: 0 0 auto; }
+.intro-grid img.headshot { width: 210px; height: auto; border-radius: 10px; }
+.intro-copy { flex: 1 1 320px; min-width: 280px; }
+.connect {
+  margin-top: 1.6rem;
+  font-family: $font-family-sans-serif;
+  font-size: .9rem;
+  color: $meta;
+}
+.connect a { color: $meta; text-decoration: none; border-bottom: 1px solid transparent; }
+.connect a:hover { color: $pink; border-bottom-color: $pink; }
+
+// ---- publication entries -------------------------------------------
+.pub { padding: .9rem 0 1.05rem; border-bottom: 1px solid $rule; }
+.pub:last-child { border-bottom: none; }
+.pub-title { font-family: $font-family-serif; font-weight: 500; color: $ink; font-size: 1.15rem; line-height: 1.3; }
+.pub-meta { font-family: $font-family-sans-serif; color: $meta; font-size: .9rem; margin-top: .2rem; }
+.pub-award {
+  font-family: $font-family-sans-serif; color: $pink; font-weight: 500;
+  font-size: .82rem; letter-spacing: .3px; margin-top: .3rem;
+}
+.pub-award::before { content: "\2605\00a0"; }
+.pub-links { font-family: $font-family-sans-serif; font-size: .85rem; margin-top: .45rem; }
+.pub-links a { color: $ink; text-decoration: none; border-bottom: 1px solid rgba(22,24,27,.22); font-weight: 400; }
+.pub-links a:hover { color: $pink; border-bottom-color: $pink; }
+.pub-links .sep { color: $muted; margin: 0 .25rem; }
+.pub-note { color: $muted; font-weight: 400; font-size: .85em; }
+
+details.pub-abstract { margin-top: .55rem; }
+details.pub-abstract > summary {
+  cursor: pointer; color: $meta; font-family: $font-family-sans-serif;
+  font-size: .85rem; font-weight: 500; list-style: none;
+}
+details.pub-abstract > summary:hover { color: $pink; }
+details.pub-abstract > summary::before { content: "\25B8\00a0"; }
+details.pub-abstract[open] > summary::before { content: "\25BE\00a0"; }
+details.pub-abstract > p { margin-top: .45rem; color: $body-text; font-size: .95rem; line-height: 1.6; }
+
+// ---- book feature --------------------------------------------------
+.book-covers { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.book-covers img { width: 200px; height: auto; box-shadow: 0 4px 14px rgba(0,0,0,.18); border-radius: 2px; }
+.book-caption { color: $muted; font-family: $font-family-sans-serif; font-size: .8rem; text-align: center; margin-top: .3rem; }
