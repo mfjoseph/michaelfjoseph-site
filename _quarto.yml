@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - images/brand/
+    - CNAME          # custom-domain file for GitHub Pages; copied into docs/ on every render
 
 website:
   title: "Michael F. Joseph"
