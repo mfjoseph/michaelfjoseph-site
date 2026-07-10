@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Research"
 description: "Peer-reviewed research by Michael F. Joseph on great power politics, national security, secrecy, and technology, including his book The Origins of Great Power Rivalries (Cambridge University Press)."
@@ -5,6 +6,8 @@ editor:
   markdown:
     wrap: 72
 ---
+--> 
+
 
 ```{r setup, include=FALSE}
 source("R/render-pubs.R")

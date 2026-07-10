@@ -1,6 +1,9 @@
+<!--
 ---
 title: "Academic Courses"
 ---
+
+-->
 
 I teach on intelligence, technology, data science, and international security — at
 UC San Diego.

@@ -1,7 +1,9 @@
+<!--
 ---
 title: "Policy"
 description: "Policy experience and public-facing writing by Michael F. Joseph on U.S.-China relations, national security, intelligence, and technology, plus courses delivered to U.S. government."
 ---
+-->
 
 I am passionate about policy impact. The current U.S. threat environment is tense, and I am eager to help any way I can. Please reach out! 
 
