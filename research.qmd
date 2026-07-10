@@ -20,8 +20,36 @@ Cambridge University Press · 2026
 ![](images/book/cover-published.jpg){.book-cover
 fig-alt="The Origins of Great Power Rivalries — book cover"}
 
-**Video summary:**
-{{< video https://www.youtube.com/watch?v=cteDEjlMla8 >}}
+```{=html}
+<a class="book-video-thumb" href="#book-video-modal" role="button" aria-label="Play video summary" onclick="openBookVideo(event); return false;">
+  <img src="https://i.ytimg.com/vi/cteDEjlMla8/hqdefault.jpg" alt="Video summary thumbnail" loading="lazy">
+  <span class="book-video-play" aria-hidden="true"></span>
+  <span class="book-video-cap">Video summary</span>
+</a>
+<dialog id="book-video-modal" class="video-modal">
+  <button type="button" class="video-modal-close" onclick="closeBookVideo()" aria-label="Close video">&times;</button>
+  <div class="video-modal-frame" id="book-video-frame"></div>
+</dialog>
+<script>
+function openBookVideo(e){ if(e){ e.preventDefault(); }
+  document.getElementById('book-video-frame').innerHTML =
+    '<iframe src="https://www.youtube.com/embed/cteDEjlMla8?autoplay=1&rel=0" title="Video summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+  var d = document.getElementById('book-video-modal');
+  if (d.showModal) { d.showModal(); } else { d.setAttribute('open',''); }
+}
+function closeBookVideo(){
+  var d = document.getElementById('book-video-modal');
+  if (d.close) { d.close(); } else { d.removeAttribute('open'); }
+  document.getElementById('book-video-frame').innerHTML = '';
+}
+document.addEventListener('DOMContentLoaded', function(){
+  var d = document.getElementById('book-video-modal');
+  if (!d) return;
+  d.addEventListener('click', function(ev){ if (ev.target === d) { closeBookVideo(); } });
+  d.addEventListener('close', function(){ document.getElementById('book-video-frame').innerHTML = ''; });
+});
+</script>
+```
 :::
 
 :::: book-right

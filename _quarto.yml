@@ -33,7 +33,8 @@ website:
         text: CV
         target: _blank
       - icon: envelope
-        href: "mailto:mfjoseph@ucsd.edu"
+        href: "https://mail.google.com/mail/?view=cm&fs=1&to=mfjoseph@ucsd.edu"
+        target: _blank
         aria-label: Email
   page-footer:
     left: "© 2026 Michael F. Joseph"

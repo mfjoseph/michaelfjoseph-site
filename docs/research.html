@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6cc7e9bc83c49d9ea06b0690e10d88fa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cd58b9e094562f942622213782116b1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:mfjoseph@ucsd.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
+    <a class="nav-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mfjoseph@ucsd.edu" target="_blank"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -174,7 +174,34 @@ ul.task-list li input[type="checkbox"] {
 <div class="book-feature">
 <div class="book-left">
 <p><img src="images/book/cover-published.jpg" class="book-cover img-fluid" alt="The Origins of Great Power Rivalries — book cover"></p>
-<p><strong>Video summary:</strong> </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cteDEjlMla8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<a class="book-video-thumb" href="#book-video-modal" role="button" aria-label="Play video summary" onclick="openBookVideo(event); return false;">
+  <img src="https://i.ytimg.com/vi/cteDEjlMla8/hqdefault.jpg" alt="Video summary thumbnail" loading="lazy">
+  <span class="book-video-play" aria-hidden="true"></span>
+  <span class="book-video-cap">Video summary</span>
+</a>
+<dialog id="book-video-modal" class="video-modal">
+  <button type="button" class="video-modal-close" onclick="closeBookVideo()" aria-label="Close video">×</button>
+  <div class="video-modal-frame" id="book-video-frame"></div>
+</dialog>
+<script>
+function openBookVideo(e){ if(e){ e.preventDefault(); }
+  document.getElementById('book-video-frame').innerHTML =
+    '<iframe src="https://www.youtube.com/embed/cteDEjlMla8?autoplay=1&rel=0" title="Video summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+  var d = document.getElementById('book-video-modal');
+  if (d.showModal) { d.showModal(); } else { d.setAttribute('open',''); }
+}
+function closeBookVideo(){
+  var d = document.getElementById('book-video-modal');
+  if (d.close) { d.close(); } else { d.removeAttribute('open'); }
+  document.getElementById('book-video-frame').innerHTML = '';
+}
+document.addEventListener('DOMContentLoaded', function(){
+  var d = document.getElementById('book-video-modal');
+  if (!d) return;
+  d.addEventListener('click', function(ev){ if (ev.target === d) { closeBookVideo(); } });
+  d.addEventListener('close', function(){ document.getElementById('book-video-frame').innerHTML = ''; });
+});
+</script>
 </div>
 <div class="book-right">
 <div class="book-endorse">
