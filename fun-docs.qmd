@@ -1,5 +1,6 @@
 <!-- ---
 title: "Fun Stuff"
+description: "A collection of fun, curious declassified documents curated by Michael F. Joseph - panda diplomacy, CIA experiments, UFOs, and other national-security oddities."
 ---  -->
 
 # Fun Documents

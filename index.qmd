@@ -1,5 +1,6 @@
 ---
 pagetitle: "Michael F. Joseph"
+description: "Michael F. Joseph — Assistant Professor of Political Science at UC San Diego. Research on international relations, U.S. foreign policy, national security, secrecy, and applied methodology."
 toc: false
 ---
 
@@ -23,3 +24,25 @@ My research is funded by the National Science Foundation, has won multiple APSA 
 
 </div>
 </div>
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Michael F. Joseph",
+  "jobTitle": "Assistant Professor of Political Science",
+  "affiliation": { "@type": "CollegeOrUniversity", "name": "University of California, San Diego" },
+  "worksFor": { "@type": "CollegeOrUniversity", "name": "University of California, San Diego" },
+  "url": "https://www.michaelfjoseph.com",
+  "knowsAbout": ["International relations", "U.S. foreign policy", "National security", "Intelligence and secrecy", "Formal theory", "Great power politics"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=aCND-O0AAAAJ",
+    "https://polisci.ucsd.edu/people/faculty/faculty-directory/currently-active-faculty/joseph-profile.html",
+    "https://www.linkedin.com/in/michael-joseph-82a5ba18/",
+    "https://x.com/m0joseph",
+    "https://bsky.app/profile/profmickeyj.bsky.social"
+  ]
+}
+</script>
+```
