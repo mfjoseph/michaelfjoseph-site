@@ -1,0 +1,7 @@
+@article{whistleblowerwotr2019,
+  author  = {Joseph, Michael F.},
+  title   = {National Security Whistleblower Reform Is a Sticky Wicket},
+  journal = {War on the Rocks},
+  year    = {2019},
+  keywords= {public}
+}

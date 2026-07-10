@@ -1,0 +1,6 @@
+@unpublished{coverstories,
+  author  = {Joseph, Michael F. and Malis, Matthew},
+  title   = {Cover Stories},
+  note    = {R&R, American Political Science Review},
+  keywords= {underreview}
+}

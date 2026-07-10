@@ -1,0 +1,7 @@
+@article{ukraine2022,
+  author  = {Joseph, Michael F.},
+  title   = {The Prospects for a Negotiated Peace in Ukraine Are Bleak},
+  journal = {Monkey Cage, Washington Post},
+  year    = {2022},
+  keywords= {public}
+}

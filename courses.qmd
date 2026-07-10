@@ -1,0 +1,15 @@
+---
+title: "Academic Courses"
+---
+
+I teach on intelligence, technology, data science, and international security — at
+UC San Diego.
+
+## University of California, San Diego
+
+- *Spies: Intelligence and U.S. National Security* (undergraduate)
+- *Theories of Technology and National Security* (undergraduate)
+- *Data Science for National Security* (undergraduate; cross-listed with the Data Science program)
+- *Field Seminar in International Security* (Ph.D. seminar)
+
+ 

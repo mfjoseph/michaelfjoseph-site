@@ -15,9 +15,10 @@
 #    article_url:  link to the published article
 #    ungated:      true  -> adds a small "(ungated)" note after Article
 #    preprint_url: link to a pre-print PDF (drop the PDF in files/preprints/)
-#    ris:          path to a citation file, e.g. files/ris/mypaper.ris
-#                  (export from Mendeley -> this becomes the "Cite me" button)
-#    video_url:    YouTube link -> shows a "Video" link
+#    bibtex:       path to a BibTeX .txt file, e.g. files/bibtex/mypaper.txt
+#                  -> shows a "BibTeX" button you can copy or download
+#    video_url:    YouTube link -> shows a "Video Summary" toggle that
+#                  plays the video inline (accepts youtube.com or youtu.be links)
 #    abstract:     text -> shows a collapsible "Abstract" toggle
 #    status:       (working papers only) free text, e.g. "R&R, APSR"
 # =====================================================================
@@ -28,30 +29,45 @@ published:
     authors: "with Roseanne McManus & Michael Goldfien"
     journal: "American Political Science Review"
     year: 2026
-    status_note: "accepted"
+    article_url: "https://www.cambridge.org/core/journals/american-political-science-review/article/domestic-sources-of-international-trust/06ED747D6FBCB1DF02B6A56904B10EF4"
+    bibtex: "files/bibtex/trust2026.txt"
+    abstract: >- 
+      How do states overcome mistrust? Scholars argue that costly foreign policy signals build trust. But when trust is low, such as during rivalries, states are unwilling to use these signals for fear of being cheated. We argue that domestic policies can also build trust by revealing information about a state’s likelihood of cooperating internationally when there is a correlation between domestic and international preferences. We further argue that domestic policies have a distinct advantage: the value states accrue from them depends less on international reciprocation. As a result, domestic choices can reassure counterparts at moments when trust is so low that costly international signals appear prohibitively risky. We test the implications of our theory in case studies of the Cold War’s end and United States–South Korea trust-building post-coup, illuminating several phenomena the current literature struggles to explain: initial trust-building between enduring rivals, asymmetric trust-building, and trust-building through illiberal domestic policies.
+
 
   - title: "Elite Partisan Disagreement and Military Victory: Evidence from South Korean Battle Experiments"
     authors: "with Joon Chung"
     journal: "American Political Science Review"
     year: 2026
-    status_note: "Registered Report, online"
     award: "Best Paper, Conflict Processes Section, APSA"
     article_url: "https://www.cambridge.org/core/journals/american-political-science-review/article/elite-partisan-disagreement-and-military-victory-evidence-from-south-korean-battle-experiments/82E121E0E6B5E32166C08E387876EAB6"
+    bibtex: "files/bibtex/korea2026.txt"
+    abstract: >- 
+      Does partisan disagreement impact expectations of victory in war? We conjectured it could by degrading military cohesion. We registered two main predictions: (a) soldiers fight less effectively if they observe political parties disagree during a crisis about whether to initiate war and (b) the effects of (a) are amplified when soldiers are affiliated with a dissenting opposition party. With some nuance, we found broad support for these predictions through two preregistered survey experiments that recruited South Korean military cadets and soldiers of appropriate ranks for warfighting. Our novel design estimated effects on the will to perform six essential battlefield tasks given land-battle doctrine, unit structures, and force employment of modern democratic armies. Thirteen exploratory tests yield findings consistent with arguments that military institutions provide nonpartisan socialization, but surprising for research on nationalism, soldier-to-soldier trust, and the psychological and dispositional determinants of military effectiveness. We also introduce and calibrate rifle shooting outcomes for experiments.
 
   - title: "Rapid Power Shifts and Peace: A Theory of Grand Bargains"
     authors: "with Mathias Frendem & William Spaniel"
     journal: "British Journal of Political Science"
     year: 2025
     article_url: "https://www.cambridge.org/core/journals/british-journal-of-political-science/article/explaining-peace-during-long-and-rapid-power-shifts-a-theory-of-grand-bargains/5B28F3BDE527ECB90B2C47C74FFE4774"
+    bibtex: "files/bibtex/powershifts2025.txt"
+    abstract: >- 
+      Bargaining scholars predict rapid power shifts cause preventive war. But cases with rapidly shifting power often remain peaceful. To explain the dogs that don’t bark, we introduce instant, repeated, costly militarization into Powell’s (1999) conventional-weapons power transition model. First, we rationalize preventive war during long, slow, complete-information power shifts. Second, we find that where past research into conventional shifts predicts war, a grand bargain backed by the decliner’s threat of war emerges as a second equilibrium. Because war and a grand bargain both prevent power from shifting, declining powers deploy them under the same conditions. Our grand bargain survives war-causing hazards, and some latent shifts. It occurs after incremental militarization causes repeated appeasement-like concessions, and when power shifts are instant, slow or fast, and perfectly observed; suggesting conventional shifts induce grand bargains under surprising conditions. The Great Game’s end fits our grand bargain, but that British elites seriously considered war.
+
 
   - title: "Secret Innovation"
     authors: "with Michael Poznansky"
     journal: "International Organization"
     year: 2024
+    article_url: "https://www.cambridge.org/core/journals/international-organization/article/secret-innovation/A28D98D47C1F7DCDBF4CF7B645EB0CFA?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark"
     # NOTE: this ungated PDF currently lives on the old Wix site and will
     # break when you move hosts. Re-save the PDF into files/preprints/ and
     # point preprint_url at it (e.g. files/preprints/secret-innovation.pdf).
-    preprint_url: "https://www.michaelfjoseph.com/_files/ugd/e0f145_20882bf1e07d4f5b9136c43e6825ec0f.pdf"
+    # preprint_url: "https://www.michaelfjoseph.com/_files/ugd/e0f145_20882bf1e07d4f5b9136c43e6825ec0f.pdf"
+    bibtex: "files/bibtex/secretinnovation2024.txt"
+    abstract: >- 
+      Conventional wisdom holds that open, collaborative, and transparent organizations are innovative. But some of the most radical innovations—satellites, lithium-iodine batteries, the internet—were conceived by small, secretive teams in national security agencies. Are these organizations more innovative because of their secrecy, or in spite of it? We study a principal–agent model of public-sector innovation. We give research teams a secret option and a public option during the initial testing and prototyping phase. Secrecy helps advance high-risk, high-reward projects through the early phase via a cost-passing mechanism. In open institutions, managers will not approve pilot research into high-risk, high-reward ideas for fear of political costs. Researchers exploit secrecy to conduct pilot research at a higher personal cost to generate evidence that their project is viable and win their manager's approval. Contrary to standard principal–agent findings, we show that researchers may exploit secrecy even if their preferences are perfectly aligned with their manager's, and that managers do not monitor researchers even if monitoring is costless and perfect. We illustrate our theory with two cases from the early Cold War: the CIA's attempt to master mind control (MKULTRA) and the origins of the reconnaissance satellite (CORONA). We contribute to the political application of principal–agent theory and studies of national security innovation, emerging technologies, democratic oversight, the Sino–American technology debate, and great power competition.
+
 
   - title: "When Do Leader Attributes Matter? Evidence from the President's Daily Brief"
     authors: "with Michael Goldfien & Daniel Krcmaric"
@@ -59,57 +75,74 @@ published:
     year: 2024
     award: "Palmer Prize (2024)"
     article_url: "https://doi.org/10.1177/07388942231196109"
+    bibtex: "files/bibtex/leaderattributes2024.txt"
+    abstract: >- 
+      A wave of recent scholarship shows that the backgrounds of political leaders shape their behavior once in office. This paper shifts the literature in a new direction by investigating the conditions under which foreign observers think a leader's background is relevant. We argue that pre-tenure biographical attributes are most informative to outsiders during leadership transitions—unique periods where the new ruler does not yet have a track record—because a leader's background provides clues about how that leader might govern. But as time passes, foreign observers quickly discount the leader's biography and instead evaluate the leader's observable behavior. We test our theory by creating a systematic daily measure of attention to foreign leader backgrounds derived from the President's Daily Brief, a novel data source of 4991 recently declassified reports from the Central Intelligence Agency to the American president.
 
-  # ---- Example fully-populated entry (all optional fields shown) --------
-  - title: "Domestic Sources of International Reputation"
+
+  - title: "The Domestic Sources of International Reputation"
     authors: "with Michael Goldfien & Roseanne McManus"
     journal: "American Political Science Review"
     year: 2023
     article_url: "https://www.cambridge.org/core/journals/american-political-science-review/article/domestic-sources-of-international-reputation/9CF02D1518EA985D8E5E80A06EB2324F"
-    preprint_url: "https://www.michaelfjoseph.com/_files/ugd/e0f145_5fd79cd99f5d443f85310e45ef88778b.pdf"
-    ris: "files/ris/domestic-sources-reputation-2023.ris"
-    # video_url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
-    abstract: >-
-      (Placeholder abstract, so you can see how the drop-down looks — replace
-      with the real one.) Do domestic audiences shape how states build
-      international reputations? We argue that leaders' reputational incentives
-      are conditioned by the domestic political costs of backing down, and test
-      the argument with survey and archival evidence.
+    bibtex: "files/bibtex/reputation2023.txt"
+    abstract: >- 
+      Existing research finds that leaders develop international reputations based on their past behavior on the international stage. We argue that leaders’ domestic choices can also influence their international reputations, perhaps as much as their past foreign policy decisions do. Using formal theory and intuitive argumentation, we develop an overarching framework to predict how much any domestic choice will affect a leader’s international reputation. We theorize that certain domestic choices can inform expectations about future international crisis behavior based on the extent to which (1) the costs at stake are similar to those of an international crisis and (2) the domestic issue is salient relative to foreign policy. We use conjoint experiments and other evidence to show that many domestic choices have significant international reputational effects. There is some evidence that the reputational effect of certain domestic choices may equal that of fighting in a previous international crisis.
 
-  - title: "Do Different Coercive Strategies Help or Hurt Deterrence Success?"
-    journal: "International Studies Quarterly"
-    year: 2023
-    article_url: "https://academic.oup.com/isq/article-abstract/67/2/sqad018/7085503"
 
   - title: "Perceptions of Leadership Importance: Evidence from the President's Daily Brief"
     authors: "with Michael Goldfien"
     journal: "Security Studies"
     year: 2023
     article_url: "https://www.tandfonline.com/doi/full/10.1080/09636412.2023.2200203"
+    bibtex: "files/bibtex/perceptions2023.txt"
+    abstract: >- 
+      Are leaders perceived as important actors during conflict, or are they discounted because of domestic institutions and international structure? We exploit recently declassified CIA President’s Daily Briefs to construct a cross-national, weekly measure of how intelligence analysts perceive foreign leader importance in conflict and diplomacy. We estimate perceptions of leader importance at crisis onset, crisis escalation, war, and war termination in over 16,000 statistical models that overcome selection and endogeneity concerns common in existing studies of leadership and conflict. Leaders are not perceived to matter equally at every stage of conflict. They are seen to matter most during crisis negotiations when conflicts can either de-escalate to peace or escalate to war. But they are not perceived to matter for crisis onset. We find that leaders of heavily constrained regimes are seen as no more important at any stage of the conflict process than they are in peacetime. Leaders of moderately constrained regimes are perceived to matter for crisis escalation. Finally, leaders of weakly constrained regimes are seen as important at nearly every stage of conflict relative to peacetime. Our findings suggest that even if leaders are perceived to matter for conflict on average, domestic institutions and international structure plausibly constrain leaders more at some stages of the conflict process than others. We contribute to the quantification of historical documents by illustrating how researchers can combine data selection, historiography, measurement, and statistical modeling to draw stronger inferences.
+
+
+  - title: "Do Different Coercive Strategies Help or Hurt Deterrence Success?"
+    journal: "International Studies Quarterly"
+    year: 2023
+    article_url: "https://academic.oup.com/isq/article-abstract/67/2/sqad018/7085503"
+    bibtex: "files/bibtex/coercive2023.txt"
+    abstract: >- 
+      Powerful states build different coercive tools to manage their broad foreign policy agenda. Do different coercive strategies help or hurt deterrence success? I analyze a simple crisis model where the Defender seeks to deter a Challenger from investing in a novel coercive technology through hassling and preventive threats. Subtle differences between my model and those of Schram, Bas and Coe, and others generate different logics that clarify the Defender’s costs and benefits for building diverse coercive tools. Unlike others, I show that hassling can complement and undercut the threat of war in a one-shot, complete information crisis. I show that adverse effects arise when we want deterrence to hold the most: against technologically sophisticated rivals with moderately to severely opposed preferences. After I detail my model, I connect different core specifications to different empirical domains. This exercise helps connect formal theory to empirical research. I argue that my model best fits Defenders who want to deter Challengers from building novel coercive technologies in the modern era. I propose a novel approach for modeling policy implications.
 
   - title: "Shooting the Messenger: The Challenge of National Security Whistleblowing"
     authors: "with Michael Poznansky & William Spaniel"
     journal: "The Journal of Politics"
     year: 2022
     article_url: "https://www.journals.uchicago.edu/doi/abs/10.1086/715595"
+    bibtex: "files/bibtex/whistleblowing2022.txt"
+    abstract: >- 
+      Whistleblowers play an integral role in oversight. In almost every employment sector, organizational insiders who come forward to expose alleged wrongdoing are protected from retaliation. In contrast, national security whistleblowers face steep fines and jail sentences for coming forward. Why? We argue that the difficulty of verifying allegations of wrongdoing in the national security arena make it hard to condition rewards and punishments on the veracity of whistleblowers’ claims. In such cases, harsh punishments prove effective for encouraging honest whistleblowing. We use mechanism design to build these claims and investigate the implications through an analysis of proposed reforms to whistleblower protection laws in the United States over the last 40 years. We also report data from elite interviews with real-world whistleblowers using interview techniques designed to test the mechanisms of formal models. This article contributes to the study of whistleblowing, disclosure dilemmas, and oversight in the covert sphere.
 
   - title: "A Little Bit of Cheap Talk is a Dangerous Thing: States Can Communicate Intentions Persuasively and Raise the Risk of War"
     journal: "The Journal of Politics"
     year: 2021
     award: "Best Paper, Formal Theory Section, APSA (2022)"
     article_url: "https://www.journals.uchicago.edu/doi/epdf/10.1086/709145"
+    bibtex: "files/bibtex/cheaptalk2021.txt"
+    abstract: >- 
+      I study a bargaining model of war in which states contest two issues and the state receiving offers has private information about her value for each issue. When the offerer starts sufficiently uncertain about the receiver’s favorite issue, he makes a balanced offer (evenly distributed across both issues) that is less efficient than an offer concentrated on the receiver’s most valuable issue would have been but avoids guessing the receiver’s favorite issue. I then allow players to resolve this uncertainty through costless diplomacy. The receiver uses diplomacy to truthfully reveal her favorite issue leading to a Pareto-improving offer concentrated on that issue. However, diplomacy has a dark side: when it causes the offer to switch from a balanced offer to a concentrated offer, it induces an equilibrium that (weakly) carries a larger risk of war because concentrated offers confront risk over the receiver’s relative value between issues. The results track Sino-American and Sino-Soviet precrisis diplomacy.
 
   - title: "Media Technology, Covert Action, and the Politics of Exposure"
     authors: "with Michael Poznansky"
     journal: "Journal of Peace Research"
     year: 2018
     article_url: "http://journals.sagepub.com/doi/pdf/10.1177/0022343317731508"
+    bibtex: "files/bibtex/mediatech2018.txt"
+    abstract: >- 
+      States wishing to use force in the modern era frequently face strong incentives to exploit secrecy. Successful covert operations can reduce the likelihood of unwanted escalation with powerful rivals and help leaders conceal unpopular actions from domestic and foreign audiences alike. The many benefits of secrecy, however, can only be realized if covert operations remain covert. We argue that access to information and communications technologies (ICTs) is a critical factor that increases the chances that a covert mission will be exposed. As a result, leaders are much less likely to reach for the quiet option when a potential target has dense ICT networks. We illustrate our mechanism through US national security archival vignettes. We test our argument using a dataset of declassified US military and electoral interventions intended to subvert incumbent regimes throughout the Cold War. The core finding, that leaders are less likely to pursue covert action relative to alternative options when the chances of exposure are high, holds across five distinct measures of ICT networks as well as different model specifications and placebo tests. Our findings suggest that Cold War-style covert operations may well be a thing of the past in an age where communication and media technologies have proliferated to the far corners of the globe. We advance debates on communications technologies, covert action, and political violence.
 
   - title: "Are Coups Really Contagious? An Extreme Bounds Analysis of Political Diffusion"
     authors: "with Michael K. Miller & Dorothy Ohl"
     journal: "Journal of Conflict Resolution"
     year: 2018
-    article_url: "http://jcr.sagepub.com/content/early/2016/05/25/0022002716649232.abstract"
+    article_url: "https://journals.sagepub.com/doi/10.1177/0022002716649232"
+    bibtex: "files/bibtex/coups2018.txt"
+    abstract: >- 
+      Protests and democratic transitions tend to spread cross-nationally. Is this true of all political events? We argue that the mechanisms underlying the diffusion of mass-participation events are unlikely to support the spread of elite-led violence, particularly coups. Further, past findings of coup contagion employed empirical techniques unable to distinguish clustering, common shocks, and actual diffusion. To investigate which events diffuse and where, we combine modern spatial dependence models with extreme bounds analysis (EBA). EBA allows for numerous modeling alternatives, including diffusion timing and the controls, and calculates the distribution of estimates across all combinations of these choices. We also examine various diffusion pathways, such as contagion among trade partners. Results from nearly 1.2 million models clearly undercut coup contagion. In comparison, we confirm that more mass-driven political events robustly spread cross-nationally. Our findings contribute to studies of political conflict and contagion, while introducing EBA as an effective tool for diffusion scholars.
 
 
 policy_commentary:
@@ -118,6 +151,7 @@ policy_commentary:
     journal: "War on the Rocks"
     year: 2019
     article_url: "https://warontherocks.com/2019/09/national-security-whistleblower-reform-is-a-sticky-wicket/"
+    bibtex: "files/bibtex/whistleblowerwotr2019.txt"
 
 
 working_papers:
@@ -129,3 +163,4 @@ working_papers:
   - title: "Cover Stories"
     authors: "with Matt Malis"
     status: "R&R, APSR"
+    bibtex: "files/bibtex/coverstories.txt"

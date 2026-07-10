@@ -1,0 +1,6 @@
+@unpublished{prehacking,
+  author  = {Joseph, Michael F.},
+  title   = {Pre-hacking: Pre-registration Practices in Political Science},
+  note    = {R&R, American Political Science Review},
+  keywords= {underreview}
+}

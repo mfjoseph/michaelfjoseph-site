@@ -2,12 +2,26 @@
 title: "Policy"
 ---
 
-Alongside my academic work, I have advised governments and international
-organizations on foreign policy, national security, and program evaluation —
-ten years across three continents and two conflict zones. I hold a TS/SCI
-clearance with full-scope polygraph (not activated).
+I am passionate about policy impact. The current U.S. threat environment is tense, and I am eager to help any way I can. Please reach out! 
 
-## Government & Policy Experience
+I was awarded an (inactive) full scope TS/SCI clearance. My public facing engagement is summarized below.  But I am a skilled briefer with core insights on US-China relations, technology integration into intelligence, and evaluation of national security programs. 
+
+## Public Facing Policy Writing
+
+[**The Prospects for a Negotiated Peace in Ukraine Are Bleak**](https://www.washingtonpost.com/politics/2022/03/24/prospects-negotiated-peace-ukraine-are-bleak/) — *Monkey Cage, The Washington Post* 
+
+[**National Security Whistleblower Reform Is a Sticky Wicket**](https://warontherocks.com/2019/09/national-security-whistleblower-reform-is-a-sticky-wicket/) — *War on the Rocks* (2019)
+
+
+## Courses Delivered to Government
+
+- *Military Applications of Data Science* — U.S. Department of War
+- *Interstate Conflict* — U.S. Army and civilian pre-conflict zone deployment.  
+- *Asia–Pacific Security* — U.S. Army and civilian pre-conflict zone deployment.  
+- *Decision Making in Crisis* — U.S. Army and civilian pre-conflict zone deployment.  
+
+
+## Select Policy Experience
 
 **Director of Research & Evaluation** — Performance Systems Inc., Washington, DC · *2015–2017*
 Designed randomized trials, surveys, and evaluations of U.S. government overseas
@@ -19,18 +33,10 @@ Supported a USAID project to rebuild the Iraqi civil service; built the statisti
 cost-measurement tools underpinning the first U.S.–Iraq Memorandum of Understanding
 on civil-service reform.
 
-**Public Policy Consultant** — Australian Government, various departments · *2008–2010*
+**Public Policy Consultant** — Various departments · *2008–2010*
 Built risk-assessment frameworks and large-scale workforce analytics across 60
 public-sector departments.
 
 **Junior Professional Officer** — United Nations, Amman, Jordan · *2006–2007*
 Developed indicators and surveys that informed an overhaul of education programs
 for 400 schools and 40,000+ refugee students across four countries.
-
-## Education
-
-**Ph.D., Political Science** — The George Washington University · *2019*
-
-**M.A., Strategic Studies** — The Australian National University · *2010*
-
-**B.A., International Studies & Economics** — The University of New South Wales · *2007*

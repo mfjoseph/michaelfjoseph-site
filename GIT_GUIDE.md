@@ -33,11 +33,32 @@ adds a second, versioned backup *plus* the hosting.
 
 ---
 
-## Step 2 — Build the site
-Turn your `.qmd` files into the finished HTML (written into `docs/`):
-- **Easiest:** open the `site` folder in **RStudio** (or **VS Code** with the Quarto
-  extension) and click **Render**; **or**
-- run once in a terminal opened in the `site` folder: `quarto render`
+## Step 2 — Build the site (turn `.qmd` files into HTML in `docs/`)
+
+Two separate things happen here — one you *type in R*, one you *click*.
+
+**a) The one thing you type in R.** Open **RStudio**. Find the **Console** pane
+(bottom-left, where R waits for input). Click into it, type this, press Enter —
+one time only:
+```r
+install.packages("yaml")
+```
+Let it finish (it prints messages, then a fresh `>` prompt). That is the *only*
+thing you type in R.
+
+**b) Build the site — this is Quarto, driven by RStudio's buttons (Quarto is a
+separate program, not an R package).**
+1. Install **Quarto** if you don't have it: <https://quarto.org/docs/get-started/>.
+   (Recent RStudio bundles it — if the **Render** button appears in step 4, you're set.)
+2. In RStudio: **File → New Project… → Existing Directory** → browse to
+   `C:\Users\micha\Dropbox\website\site` → **Create Project**. RStudio now "sees" the site.
+3. In the **Files** pane (bottom-right), click **`index.qmd`** to open it.
+4. Click the **Render** button at the top of the editor — or, to build *every* page,
+   open the **Build** tab (top-right pane) and click **Render Website**.
+5. RStudio builds the pages into the `docs/` folder and opens a live preview.
+
+> No **Render** button? Quarto isn't installed yet — do step b1, restart RStudio, retry.
+> Prefer no RStudio? Open a terminal in the `site` folder and run `quarto render`.
 
 ---
 

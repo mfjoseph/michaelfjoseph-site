@@ -1,38 +1,54 @@
----
-title: "Fun Docs"
----
+<!-- ---
+title: "Fun Stuff"
+---  -->
+
+# Fun Documents
 
 From time to time I come across fun or interesting archival documents. I've
 started collecting them here.
 
-## Superpowers: Telekinesis
+## Panda Diplomacy
+
+Pandas are adorable. Did you know they helped thaw U.S.-China relations in the 1950s? DCI Dulles passion for pandas triggered a sequence of curious events that led pandas to fill our zoos and bring the US and China closer together. [Read the document](https://www.cia.gov/stories/story/cia-and-panda-diplomacy/)
+
+## Telekinesis
 
 A CIA-led experiment reporting that one subject displayed paranormal abilities of
-telekinesis — in particular, that he could heat objects by touching them.
+telekinesis — in particular, that he could heat objects by touching them. [Read the document](files/fun-docs/Telekenesis.pdf)
 
-<!-- This PDF currently lives on the old Wix site. To keep it after the move,
-     save it into files/fun-docs/ and change the link to a local path. -->
-[Read the document](https://www.michaelfjoseph.com/_files/ugd/e0f145_d5624109e08442a19ae8587d6cef8008.pdf)
+## Remote Viewing
 
-## Superpowers: Remote Viewing
-
-A review by the Federation of American Scientists of programs testing whether
+The Federation of American Scientists review CIA/military programs testing whether
 humans can perceive distant objects — a little like Professor X in *X-Men*. The
-report suggests some subjects' estimates were accurate beyond what chance would
-predict.
+report says---*probably.* Some subjects' estimates were accurate beyond what chance would
+predict. [Read the document](files/fun-docs/remote_viewing.pdf)
 
-[irp.fas.org/program/collect/air1995.pdf](https://irp.fas.org/program/collect/air1995.pdf)
 
 ## UFOs
 
-A comprehensive review of classified CIA programs on UFOs. Interestingly, the
-Soviets and the PRC ran dedicated UFO programs of their own — and the CIA worked
-hard to spy on them.
+Before Trump's recent military declassification, the CIA had given us a glimpse into their own rearch. Interestingly, the Soviets and the PRC ran dedicated UFO programs of their own — and the CIA worked hard to spy on them. [Read the document](files/fun-docs/UFOs.pdf)
 
-[cia.gov/readingroom/docs/DOC_0000838057.pdf](https://www.cia.gov/readingroom/docs/DOC_0000838057.pdf)
 
 ## $22 Million Underpants
 
 This year, the IARPA program
 ["Smart e-Pants"](https://www.iarpa.gov/research-programs/smart-epants) awarded
 $22 million to build underwear.
+
+
+
+## The CIA's hedge fund. 
+
+Did you know that the CIA runs  [In-Q-tel](https://www.iqt.org/) an angel investor for cutting edge tech? They fund a [Jurrasic Park](https://colossal.com/) firm that creates extinct animals; and [The Cowboy Space Co.](https://www.cowboyspace.com/) that can power objects on earth from outerspace. 
+
+
+# Fun facts about me
+
+I like woodworking, making ice cream, taking my daughter to the zoo and stand-up comedy. 
+
+My favorite comedy video about foreign policy is this classic by Eddie Izzard:
+
+{{< video https://www.youtube.com/watch?v=siBX0i1EIWk >}}
+
+
+

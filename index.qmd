@@ -3,36 +3,23 @@ pagetitle: "Michael F. Joseph"
 toc: false
 ---
 
-::: {.site-hero}
-[Michael F. Joseph]{.hero-name}
+<div class="cover">
+<div class="cover-wm" style="background-image: url('images/brand/hexagon_watermark_pink.png');"></div>
+<div class="cover-inner">
 
-[International Relations · U.S. Foreign Policy · Applied Methodology]{.hero-fields}
-:::
+[Michael F. Joseph]{.cover-name}
 
-::: {.intro-grid}
-![](images/profile/headshot.jpg){.headshot fig-alt="Michael F. Joseph"}
+[International Relations · U.S. Foreign Policy · Applied Methodology]{.cover-fields}
 
-::: {.intro-copy}
-**Assistant Professor of Political Science** (and Data Science, by courtesy), UC San Diego.
+<div class="cover-copy">
 
-I study war, national security, secrecy, and modern technology. My research has
-two strands. In the first, I integrate the historical and cultural determinants
-of state motives into strategic models of great-power politics. In the second, I
-explore how modern technology and secrecy create opportunities and challenges for
-the intelligence community. This work has interested policymakers in Washington
-for its insights on Sino-American relations and on the use of digital technology
-in intelligence analysis.
+Welcome! I am an Assistant Professor of Political Science (and Data Science, by courtesy), at UC San Diego.
 
-Before my Ph.D., I worked as a foreign-policy consultant in Iraq, Australia,
-Jordan, and the United States.
+I am impassioned by long-standing theoretical puzzles of consequence to U.S national security. I have two broad agendas: integrating normative motivations and complex threat estimates into rational theories of international relations; and the promise and perils of National Security innovation. Multiple projects shed light on my general strategic theories through surveys, survey experiments and in-depth interviews with foreign policy elites; including the Deputy Director of the CIA, the Director of National Intelligence, Deputy Assistant Secretary of State, etc.
 
-My book, *The Origins of Great Power Rivalries*, is forthcoming with Cambridge
-University Press (2026). You can read my published work on the
-[Research](research.qmd) page, and I summarize new articles in short videos on my
-[YouTube channel](https://www.youtube.com/@Dr.MichaelJoseph).
+My research is funded by the National Science Foundation, has won multiple APSA section awards, and is published in leading political science journals. My book *The Origins of Great Power Rivalries* is published by Cambridge University Press. My findings have policy impact via regularly briefing to members of the National Security Community, and public-facing policy articles.
 
-::: {.connect}
-[Email](mailto:mfjoseph@ucsd.edu) · [CV](files/cv/CV.pdf) · [YouTube](https://www.youtube.com/@Dr.MichaelJoseph) · [Google Scholar](#) · [X](https://x.com/m0joseph) · [LinkedIn](https://www.linkedin.com/in/michael-joseph-82a5ba18/) · [Facebook](https://www.facebook.com/michael.joseph.1048554) · [Bluesky](https://bsky.app/profile/profmickeyj.bsky.social)
-:::
-:::
-:::
+</div>
+
+</div>
+</div>

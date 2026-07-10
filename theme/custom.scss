@@ -2,41 +2,38 @@
 
 // =====================================================================
 //  BRAND THEME — "Redacted" (see ../branding.md for the full spec)
-//  Split system: dark = brand moments (hero, navbar, footer);
+//  Split system: dark = brand moments (cover, navbar, footer);
 //  light warm off-white = reading. Pink is an event, not a default.
-//  Fonts are loaded via <link> in _quarto.yml (Poppins + Newsreader).
+//  Fonts + Bootstrap-Icons are loaded via <link> in _quarto.yml.
 // =====================================================================
 
-// ---- palette --------------------------------------------------------
-$ink:          #16181b;   // titles / strong (light surfaces)
-$body-text:    #45484f;   // body text
-$meta:         #74777f;   // bylines, dates, labels
-$muted:        #9a9da4;   // captions, separators
-$rule:         #e5e1d9;   // hairlines / borders
-$paper:        #f7f5f1;   // warm off-white page
+$ink:          #16181b;
+$body-text:    #45484f;
+$meta:         #74777f;
+$muted:        #9a9da4;
+$rule:         #e5e1d9;
+$paper:        #f8f6f8; //               #f7f5f1;
 $pink:         #c40064;   // accent on LIGHT surfaces (ration it)
 $pink-bright:  #ff2e9a;   // accent on DARK surfaces only
 $dark:         #000000;
-$dark-text:    #e7e9ed;   // near-white name tint
+$dark-text:    #e7e9ed;
 $dark-dim:     #9aa0a8;
 
-// ---- fonts ----------------------------------------------------------
 $font-family-sans-serif: 'Poppins', system-ui, -apple-system, "Segoe UI", sans-serif;
 $font-family-serif:      'Newsreader', Georgia, 'Times New Roman', serif;
-$font-family-base:       $font-family-serif;   // body reads in serif
-$headings-font-family:   $font-family-serif;   // titles in serif
+$font-family-base:       $font-family-serif;
+$headings-font-family:   $font-family-serif;
 $headings-font-weight:   500;
 
 $font-size-base:   1.05rem;
 $line-height-base: 1.7;
 
-// ---- bootstrap / quarto color mappings ------------------------------
 $body-bg:          $paper;
 $body-color:       $body-text;
 $headings-color:   $ink;
 $primary:          $pink;
-$link-color:       $ink;      // links are dark + underline, not pink
-$link-hover-color: $pink;     // a whisper of pink on hover
+$link-color:       $ink;
+$link-hover-color: $pink;
 $border-color:     $rule;
 
 $navbar-bg: $dark;
@@ -55,6 +52,7 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
 }
 .navbar .navbar-brand { color: $dark-text !important; font-weight: 400; letter-spacing: .04em; }
 .navbar .navbar-brand:hover { color: #fff !important; }
+.navbar .brand-dot { color: $pink-bright; }
 .navbar .nav-link {
   color: $dark-dim !important;
   text-transform: uppercase;
@@ -62,7 +60,15 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
   font-size: .78rem;
   font-weight: 400;
 }
-.navbar .nav-link:hover, .navbar .nav-link.active { color: #fff !important; }
+.navbar .nav-link:hover { color: #fff !important; }
+.navbar .nav-link.active { color: $pink-bright !important; }
+.navbar .dropdown-menu { background: #0d0d0f; border: 1px solid #1c1d20; }
+.navbar .dropdown-item {
+  color: $dark-dim; font-family: $font-family-sans-serif;
+  text-transform: uppercase; letter-spacing: .06em; font-size: .74rem;
+}
+.navbar .dropdown-item:hover, .navbar .dropdown-item:focus { background: #17181b; color: #fff; }
+.navbar .dropdown-item.active { background: transparent; color: $pink-bright; }
 
 // ---- footer (dark brand moment) ------------------------------------
 .nav-footer {
@@ -74,84 +80,131 @@ body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; 
 }
 .nav-footer a { color: $dark-dim; text-decoration: none; }
 .nav-footer a:hover { color: #fff; }
+.nav-footer a { margin-left: .85rem; display: inline-flex; align-items: center; }
+.nav-footer .bi { font-size: 1.1rem; }
+.nav-footer .bsky-ico { width: 1.05rem; height: 1.05rem; }
 
 // ---- headings ------------------------------------------------------
 h1, h2, h3, .title { font-family: $font-family-serif; color: $ink; font-weight: 500; }
-h2 {
-  border-bottom: 1px solid $rule;
-  padding-bottom: .3rem;
-  margin-top: 2.4rem;
-}
+h2 { border-bottom: 1px solid $rule; padding-bottom: .3rem; margin-top: 2.4rem; }
 main a { text-underline-offset: 2px; }
 
-// ---- home hero (dark) ----------------------------------------------
-.site-hero {
-  background: $dark;
-  border-radius: 10px;
-  padding: clamp(2.6rem, 6vw, 4.2rem) clamp(1.4rem, 4vw, 2.6rem);
-  margin: 0 0 2.6rem;
+// ---- home cover (full-bleed dark, with explosion watermark) --------
+body:has(.cover) { background: #000; }   // whole homepage black — no light gaps
+.cover {
+  position: relative;
+  overflow: hidden;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-color: #000;
+  color: #c4c9d1;
+  min-height: 74vh;
+  display: flex;
+  align-items: center;
+  padding: clamp(2.5rem, 7vh, 5rem) 0;
 }
-.hero-name {
-  display: block;
-  font-family: $font-family-sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  color: $dark-text;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  line-height: 1.1;
+.cover-wm {
+  position: absolute; bottom: -9px; left: -4px; z-index: 0;
+  width: 40%; max-width: 470px; height: 56%;
+  background-repeat: no-repeat; background-position: bottom left; background-size: contain;
+  opacity: 0.50; pointer-events: none;
 }
-.hero-fields {
-  display: block;
-  margin-top: 1.1rem;
-  font-family: $font-family-sans-serif;
-  font-weight: 300;
-  color: $pink-bright;
-  font-size: clamp(.95rem, 2.1vw, 1.3rem);
+.cover-inner { position: relative; z-index: 1; width: 100%; max-width: 700px; margin: 0 auto; padding: 0 1.25rem; }
+.cover-name {
+  display: block; font-family: $font-family-sans-serif; font-weight: 300;
+  text-transform: uppercase; letter-spacing: .12em; color: $dark-text;
+  font-size: clamp(1.8rem, 5vw, 2.9rem); line-height: 1.1;
+}
+.cover-fields {
+  display: block; margin-top: 1.1rem; font-family: $font-family-sans-serif;
+  font-weight: 300; color: $pink-bright; font-size: clamp(.85rem, 2.2vw, 1.08rem);
   letter-spacing: .02em;
 }
-
-// ---- intro block ---------------------------------------------------
-.intro-grid { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
-.intro-grid > p { margin: 0; flex: 0 0 auto; }
-.intro-grid img.headshot { width: 210px; height: auto; border-radius: 10px; }
-.intro-copy { flex: 1 1 320px; min-width: 280px; }
-.connect {
-  margin-top: 1.6rem;
-  font-family: $font-family-sans-serif;
-  font-size: .9rem;
-  color: $meta;
+.cover-copy {
+  margin-top: 1.6rem; font-family: $font-family-serif; text-align: justify;
+  color: #c4c9d1; font-size: 1.02rem; line-height: 1.65;
 }
-.connect a { color: $meta; text-decoration: none; border-bottom: 1px solid transparent; }
-.connect a:hover { color: $pink; border-bottom-color: $pink; }
+.cover-copy em { color: $dark-text; font-style: italic; }
+.cover-connect { margin-top: 1.9rem; display: flex; gap: 1.15rem; align-items: center; flex-wrap: wrap; }
+.cover-connect a { color: $dark-dim; font-size: 1.3rem; line-height: 1; display: inline-flex; align-items: center; }
+.cover-connect a:hover { color: $pink-bright; }
+.cover-connect .bsky-ico { width: 1.2rem; height: 1.2rem; }
+
+// ---- book feature (research page) ----------------------------------
+.book-feature { display: flex; gap: 1.8rem; align-items: flex-start; flex-wrap: wrap; margin: .5rem 0 1rem; }
+.book-left { flex: 0 0 220px; max-width: 220px; }
+.book-left img, .book-left .book-cover { width: 100%; height: auto; box-shadow: 0 4px 14px rgba(0,0,0,.18); border-radius: 2px; }
+.book-left .quarto-video, .book-left .ratio { margin-top: .9rem; }
+.book-right { flex: 1 1 320px; min-width: 280px; }
+.book-right h3 { margin-top: 0; font-size: 1.35rem; }
+.book-press {
+  font-family: $font-family-sans-serif; font-size: .78rem; letter-spacing: .06em;
+  text-transform: uppercase; color: $meta; margin: -.6rem 0 1.4rem;
+}
+.book-endorse .blurb { border-left: 2px solid $pink; margin: 0 0 1.05rem; padding: .1rem 0 .1rem .9rem; }
+.book-endorse .blurb .q { font-family: $font-family-serif; color: #2a2c31; font-size: .9rem; line-height: 1.5; margin: 0 0 .3rem; }
+.book-endorse .blurb .q i { font-style: italic; }
+.book-endorse .blurb .q em { color: $pink; font-style: normal; font-weight: 500; }
+.book-endorse .blurb .who {
+  font-family: $font-family-sans-serif; font-size: .73rem; letter-spacing: .04em;
+  text-transform: uppercase; color: $ink; font-weight: 600; margin: 0;
+}
+.book-endorse .blurb .who span { display: block; text-transform: none; letter-spacing: 0; color: $meta; font-weight: 400; font-size: .76rem; }
+
+.book-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: flex-start; margin-top: 1.4rem; }
+.book-feature > .book-actions { flex: 1 1 100%; width: 100%; }
+.book-actions p { margin: 0; }
+.book-actions .cta-link, details.book-cta > summary {
+  font-family: $font-family-sans-serif; font-size: .8rem; font-weight: 500;
+  padding: .5rem .9rem; border: 1px solid #d7d3ca; border-radius: 6px;
+  background: #fff; color: $ink; cursor: pointer; text-decoration: none;
+  list-style: none; display: inline-flex; align-items: center;
+}
+details.book-cta > summary::-webkit-details-marker { display: none; }
+details.book-cta > summary::marker { content: ""; }
+.book-actions .cta-link:hover, details.book-cta > summary:hover { border-color: $pink; color: $pink; }
+details.book-cta { margin: 0; }
+details.book-cta[open] { flex: 1 1 100%; }
+details.book-cta[open] > summary { border-color: $pink; color: $pink; }
+.book-summary { margin-top: .8rem; font-family: $font-family-serif; color: $body-text; font-size: .95rem; line-height: 1.6; }
+.book-summary em { color: $pink; font-style: normal; font-weight: 500; }
+details.book-cta pre {
+  margin-top: .8rem; background: #f1efe9; border: 1px solid $rule; border-radius: 6px;
+  padding: .8rem 1rem; font-size: .8rem; line-height: 1.5; overflow-x: auto; color: #2a2c31;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+details.book-cta .bib-dl { display: inline-block; margin-top: .4rem; font-size: .8rem; color: $meta; text-decoration: none; }
+details.book-cta .bib-dl:hover { color: $pink; }
 
 // ---- publication entries -------------------------------------------
-.pub { padding: .9rem 0 1.05rem; border-bottom: 1px solid $rule; }
+.pub { padding: .5rem 0 .55rem; border-bottom: 1px solid $rule; }
 .pub:last-child { border-bottom: none; }
-.pub-title { font-family: $font-family-serif; font-weight: 500; color: $ink; font-size: 1.15rem; line-height: 1.3; }
-.pub-meta { font-family: $font-family-sans-serif; color: $meta; font-size: .9rem; margin-top: .2rem; }
-.pub-award {
-  font-family: $font-family-sans-serif; color: $pink; font-weight: 500;
-  font-size: .82rem; letter-spacing: .3px; margin-top: .3rem;
-}
+.pub-title { font-family: $font-family-serif; font-weight: 500; color: $ink; font-size: 1.05rem; line-height: 1.25; }
+.pub-meta { font-family: $font-family-sans-serif; color: $meta; font-size: .87rem; margin-top: .1rem; }
+.pub-award { font-family: $font-family-sans-serif; color: $pink; font-weight: 500; font-size: .8rem; letter-spacing: .2px; margin-top: .12rem; }
 .pub-award::before { content: "\2605\00a0"; }
-.pub-links { font-family: $font-family-sans-serif; font-size: .85rem; margin-top: .45rem; }
-.pub-links a { color: $ink; text-decoration: none; border-bottom: 1px solid rgba(22,24,27,.22); font-weight: 400; }
-.pub-links a:hover { color: $pink; border-bottom-color: $pink; }
-.pub-links .sep { color: $muted; margin: 0 .25rem; }
 .pub-note { color: $muted; font-weight: 400; font-size: .85em; }
 
-details.pub-abstract { margin-top: .55rem; }
-details.pub-abstract > summary {
-  cursor: pointer; color: $meta; font-family: $font-family-sans-serif;
-  font-size: .85rem; font-weight: 500; list-style: none;
+// one compact row of links: Abstract | Article | Pre-print | BibTeX | Video
+.pub-actions { display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem 1.05rem; margin-top: .32rem; font-family: $font-family-sans-serif; font-size: .84rem; }
+.pub-actions a, .pub-actions details.pub-x > summary { color: $meta; text-decoration: none; cursor: pointer; list-style: none; font-weight: 500; }
+.pub-actions a:hover, .pub-actions details.pub-x > summary:hover { color: $pink; }
+details.pub-x { margin: 0; }
+details.pub-x[open] { flex: 1 1 100%; }
+details.pub-x > summary::-webkit-details-marker { display: none; }
+details.pub-x > summary::marker { content: ""; }
+details.pub-x > summary::before { content: "\25B8\00a0"; }
+details.pub-x[open] > summary::before { content: "\25BE\00a0"; }
+.pub-x-panel { margin-top: .4rem; }
+.pub-x-panel p { margin: 0; color: $body-text; font-size: .85rem; line-height: 1.55; }
+.pub-x-panel pre {
+  margin: .3rem 0 0; background: #f1efe9; border: 1px solid $rule; border-radius: 6px;
+  padding: .7rem .9rem; font-size: .78rem; line-height: 1.5; overflow-x: auto; color: #2a2c31;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 }
-details.pub-abstract > summary:hover { color: $pink; }
-details.pub-abstract > summary::before { content: "\25B8\00a0"; }
-details.pub-abstract[open] > summary::before { content: "\25BE\00a0"; }
-details.pub-abstract > p { margin-top: .45rem; color: $body-text; font-size: .95rem; line-height: 1.6; }
+.pub-x-panel .bib-dl { display: inline-block; margin-top: .35rem; font-size: .78rem; color: $meta; text-decoration: none; }
+.pub-x-panel .bib-dl:hover { color: $pink; }
 
-// ---- book feature --------------------------------------------------
-.book-covers { display: flex; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 1rem; }
-.book-covers img { width: 200px; height: auto; box-shadow: 0 4px 14px rgba(0,0,0,.18); border-radius: 2px; }
-.book-caption { color: $muted; font-family: $font-family-sans-serif; font-size: .8rem; text-align: center; margin-top: .3rem; }
+// embedded "Video Summary" player — responsive 16:9, capped width
+.pub-x-panel .pub-video { position: relative; width: 100%; max-width: 640px; aspect-ratio: 16 / 9; margin-top: .2rem; }
+.pub-x-panel .pub-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 1px solid $rule; border-radius: 6px; }

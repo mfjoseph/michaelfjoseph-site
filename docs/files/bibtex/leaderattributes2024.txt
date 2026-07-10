@@ -1,0 +1,10 @@
+@article{leaderattributes2024,
+  author  = {Joseph, Michael F. and Goldfien, Michael and Krcmaric, Daniel},
+  title   = {When Do Leader Attributes Matter? Evidence from the President's Daily Brief},
+  journal = {Conflict Management and Peace Science},
+  volume  = {41},
+  number  = {4},
+  year    = {2024},
+  annote  = {The Palmer Prize},
+  keywords= {peer}
+}
