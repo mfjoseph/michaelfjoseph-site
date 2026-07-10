@@ -1,0 +1,9 @@
+@article{whistleblowing2022,
+  author  = {Joseph, Michael F. and Poznansky, Michael and Spaniel, William},
+  title   = {Shooting the Messenger: The Challenge of National Security Whistleblowing},
+  journal = {Journal of Politics},
+  volume  = {84},
+  number  = {2},
+  year    = {2022},
+  keywords= {peer}
+}
