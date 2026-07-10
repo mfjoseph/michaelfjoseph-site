@@ -102,14 +102,21 @@
     "href": "courses.html",
     "title": "Michael F. Joseph",
     "section": "",
-    "text": "I teach on intelligence, technology, data science, and international security — at UC San Diego."
+    "text": "I teach on intelligence, technology, data science, and international security — at UC San Diego.\n\nSpies: Intelligence and U.S. National Security (undergraduate)\nTheories of Technology and National Security (undergraduate)\nData Science for National Security (undergraduate; cross-listed with the Data Science program)\nField Seminar in International Security (Ph.D. seminar)"
   },
   {
     "objectID": "courses.html#university-of-california-san-diego",
     "href": "courses.html#university-of-california-san-diego",
     "title": "Michael F. Joseph",
-    "section": "University of California, San Diego",
-    "text": "University of California, San Diego\n\nSpies: Intelligence and U.S. National Security (undergraduate)\nTheories of Technology and National Security (undergraduate)\nData Science for National Security (undergraduate; cross-listed with the Data Science program)\nField Seminar in International Security (Ph.D. seminar)"
+    "section": "",
+    "text": "I teach on intelligence, technology, data science, and international security — at UC San Diego.\n\nSpies: Intelligence and U.S. National Security (undergraduate)\nTheories of Technology and National Security (undergraduate)\nData Science for National Security (undergraduate; cross-listed with the Data Science program)\nField Seminar in International Security (Ph.D. seminar)"
+  },
+  {
+    "objectID": "courses.html#courses-delivered-to-government",
+    "href": "courses.html#courses-delivered-to-government",
+    "title": "Michael F. Joseph",
+    "section": "Courses Delivered to Government",
+    "text": "Courses Delivered to Government\nPreviously, I taught several courses to members of the foreign policy community.\n\nMilitary Applications of Data Science — U.S. Department of War\nInterstate Conflict — U.S. Army and civilian pre-conflict zone deployment.\n\nAsia–Pacific Security — U.S. Army and civilian pre-conflict zone deployment.\n\nDecision Making in Crisis — U.S. Army and civilian pre-conflict zone deployment."
   },
   {
     "objectID": "advice.html",
@@ -201,5 +208,19 @@
     "title": "Michael F. Joseph",
     "section": "Select Working Papers",
     "text": "Select Working Papers\n\n\nContract Uncertainty and the Resolution of Intractable Disputes\n\n\nwith Ken Schultz. Under review\n\n\n\n\nCover Stories\n\n\nwith Matt Malis. R&R, APSR\n\n\n\n\nBibTeX\n\n\n@unpublished{coverstories,\n  author  = {Joseph, Michael F. and Malis, Matthew},\n  title   = {Cover Stories},\n  note    = {R&R, American Political Science Review},\n  keywords= {underreview}\n}\nDownload .txt"
+  },
+  {
+    "objectID": "research.html#research-grants",
+    "href": "research.html#research-grants",
+    "title": "Michael F. Joseph",
+    "section": "Research Grants",
+    "text": "Research Grants\n\nNational Science Foundation Security & preparedness Program. $450,000.\nSar & Britta Levitan Endowmen. $20,000\nHerbst Family Graduate Endowment. $20,000.\n\n\nIn-Residence Research Fellowships\n\nAustralian National University, Research School of Social Sciences, In-Residence Fellowship.\nBradley Fellow in Foreign Policy.\nAsia–Pacific Security — U.S. Army and civilian pre-conflict zone deployment.\n\nDecision Making in Crisis — U.S. Army and civilian pre-conflict zone deployment."
+  },
+  {
+    "objectID": "research.html#research-grants-fellowships",
+    "href": "research.html#research-grants-fellowships",
+    "title": "Michael F. Joseph",
+    "section": "Research Grants & Fellowships",
+    "text": "Research Grants & Fellowships\n\nGrants\n\nNational Science Foundation Security & preparedness Program. $450,000.\nSar & Britta Levitan Endowmen. $20,000\nHerbst Family Graduate Endowment. $20,000.\n\n\n\nIn-Residence Research Fellowships\n\nAustralian National University, Research School of Social Sciences, In-Residence Fellowship.\nBradley Fellow in Foreign Policy."
   }
 ]

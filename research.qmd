@@ -138,3 +138,24 @@ render_pubs("policy_commentary")
 ```{r, results='asis', echo=FALSE}
 render_pubs("working_papers")
 ```
+
+
+
+
+
+ 
+## Research Grants \& Fellowships
+
+
+#### Grants
+- National Science Foundation Security \& preparedness Program. \$450,000.
+- Sar \& Britta Levitan Endowmen. \$20,000
+- Herbst Family Graduate Endowment. \$20,000.
+ 
+
+#### In-Residence Research Fellowships
+
+- Australian National University, Research School of Social Sciences, In-Residence Fellowship.
+
+- Bradley Fellow in Foreign Policy.
+

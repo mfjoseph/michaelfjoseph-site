@@ -5,10 +5,12 @@ title: "Academic Courses"
 
 -->
 
+
+## University of California, San Diego
+
 I teach on intelligence, technology, data science, and international security — at
 UC San Diego.
 
-## University of California, San Diego
 
 - *Spies: Intelligence and U.S. National Security* (undergraduate)
 - *Theories of Technology and National Security* (undergraduate)
@@ -16,3 +18,13 @@ UC San Diego.
 - *Field Seminar in International Security* (Ph.D. seminar)
 
  
+ 
+## Courses Delivered to Government
+
+Previously, I taught several courses to members of the foreign policy community. 
+
+- *Military Applications of Data Science* — U.S. Department of War
+- *Interstate Conflict* — U.S. Army and civilian pre-conflict zone deployment.  
+- *Asia–Pacific Security* — U.S. Army and civilian pre-conflict zone deployment.  
+- *Decision Making in Crisis* — U.S. Army and civilian pre-conflict zone deployment.  
+
