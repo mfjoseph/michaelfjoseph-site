@@ -1,8 +1,0 @@
-@article{trust2026,
-  author  = {Joseph, Michael F. and McManus, Roseanne and Goldfien, Michael},
-  title   = {The Domestic Sources of International Trust},
-  journal = {American Political Science Review},
-  year    = {2026},
-  note    = {First View},
-  keywords= {peer}
-}

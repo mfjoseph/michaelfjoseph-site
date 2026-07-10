@@ -1,9 +1,0 @@
-@article{reputation2023,
-  author  = {Joseph, Michael F. and Goldfien, Michael and McManus, Roseanne},
-  title   = {The Domestic Sources of International Reputation},
-  journal = {American Political Science Review},
-  volume  = {117},
-  number  = {2},
-  year    = {2023},
-  keywords= {peer}
-}

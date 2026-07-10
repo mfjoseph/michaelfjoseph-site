@@ -1,9 +1,0 @@
-@article{perceptions2023,
-  author  = {Joseph, Michael F. and Goldfien, Michael},
-  title   = {Perceptions of Leadership Importance: Evidence from the President's Daily Brief},
-  journal = {Security Studies},
-  volume  = {32},
-  number  = {2},
-  year    = {2023},
-  keywords= {peer}
-}

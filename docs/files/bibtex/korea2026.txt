@@ -1,9 +1,0 @@
-@article{korea2026,
-  author  = {Joseph, Michael F. and Chung, Joon H. and Park, Hui S.},
-  title   = {Elite Partisan Disagreement and Military Victory: Evidence from South Korean Battle Experiments},
-  journal = {American Political Science Review},
-  year    = {2026},
-  note    = {First View},
-  annote  = {Best Paper, Conflict Processes Section, APSA},
-  keywords= {peer}
-}

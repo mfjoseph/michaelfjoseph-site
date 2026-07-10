@@ -103,11 +103,29 @@ body:has(.cover) { background: #000; }   // whole homepage black — no light ga
   align-items: center;
   padding: clamp(2.5rem, 7vh, 5rem) 0;
 }
-.cover-wm {
-  position: absolute; bottom: -9px; left: -4px; z-index: 0;
-  width: 40%; max-width: 470px; height: 56%;
-  background-repeat: no-repeat; background-position: bottom left; background-size: contain;
-  opacity: 0.50; pointer-events: none;
+// A few hand-placed hexagons behind the cover, anchored as fixed pixel
+// DISTANCES FROM THE CENTER — so they hold their position relative to the
+// (centered) text no matter the window width. In each transform, the two
+// numbers after "translate(" are the x,y offset from center:
+//   negative x = left of center, positive x = right;
+//   negative y = above center,   positive y = below.
+// Tune: size (width/height), those two offsets, opacity, and the rotate angle.
+.cover-hex {
+  position: absolute; top: 50%; left: 50%; z-index: 0; pointer-events: none;
+  background-repeat: no-repeat; background-position: center; background-size: contain;
+}
+.cover-hex.hex-1 {   // big one, lower-left, partly under the text
+  width: min(380px, 68vw); height: min(380px, 68vw); opacity: .5;
+  transform: translate(calc(-30% - 420px), calc(-70% + 190px)) rotate(-6deg);
+}
+//.cover-hex.hex-2 {   // small, bottom-right
+  // width: 200px; height: 250px; opacity: .5;
+  // transform: translate(calc(-50% + 300px), calc(-55% + 190px)) rotate(-20deg);
+//}
+
+.cover-hex.hex-3 {   // small, upper-right
+  width: 280px; height: 280px; opacity: .5;
+  transform: translate(calc(-50% + 330px), calc(-10% - 175px)) rotate(12deg);
 }
 .cover-inner { position: relative; z-index: 1; width: 100%; max-width: 700px; margin: 0 auto; padding: 0 1.25rem; }
 .cover-name {

@@ -5,7 +5,9 @@ toc: false
 ---
 
 <div class="cover">
-<div class="cover-wm" style="background-image: url('images/brand/hexagon_watermark_pink.png');"></div>
+<div class="cover-hex hex-1" style="background-image: url('images/brand/hexagon_watermark_pink.png');"></div>
+<div class="cover-hex hex-2" style="background-image: url('images/brand/hexagon_watermark_pink.png');"></div>
+<div class="cover-hex hex-3" style="background-image: url('images/brand/hexagon_watermark_pink.png');"></div>
 <div class="cover-inner">
 
 [Michael F. Joseph]{.cover-name}
