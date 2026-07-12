@@ -139,8 +139,8 @@ body:has(.cover) { background: #000; }   // whole homepage black — no light ga
   letter-spacing: .02em;
 }
 .cover-copy {
-  margin-top: 1.6rem; font-family: $font-family-serif; text-align: justify;
-  color: #c4c9d1; font-size: 1.02rem; line-height: 1.65;
+  margin-top: 1.6rem; font-family: $font-family-serif; text-align: left;
+  color: #c4c9d1; font-size: 1.02rem; line-height: 1.55;
 }
 .cover-copy em { color: $dark-text; font-style: italic; }
 .cover-connect { margin-top: 1.9rem; display: flex; gap: 1.15rem; align-items: center; flex-wrap: wrap; }

@@ -1,185 +1,17 @@
 [
   {
-    "objectID": "teaching-learning.html",
-    "href": "teaching-learning.html",
-    "title": "Teaching/Learning",
-    "section": "",
-    "text": "This page has moved. See Courses and Advice for Students."
-  },
-  {
-    "objectID": "policy.html",
-    "href": "policy.html",
-    "title": "Michael F. Joseph",
-    "section": "",
-    "text": "I am passionate about policy impact. The current U.S. threat environment is tense, and I am eager to help any way I can. Please reach out!\nI was awarded an (inactive) full scope TS/SCI clearance. My public facing engagement is summarized below. But I am a skilled briefer with core insights on US-China relations, technology integration into intelligence, and evaluation of national security programs."
-  },
-  {
-    "objectID": "policy.html#public-facing-policy-writing",
-    "href": "policy.html#public-facing-policy-writing",
-    "title": "Michael F. Joseph",
-    "section": "Public Facing Policy Writing",
-    "text": "Public Facing Policy Writing\nThe Prospects for a Negotiated Peace in Ukraine Are Bleak — Monkey Cage, The Washington Post\nNational Security Whistleblower Reform Is a Sticky Wicket — War on the Rocks (2019)"
-  },
-  {
-    "objectID": "policy.html#courses-delivered-to-government",
-    "href": "policy.html#courses-delivered-to-government",
-    "title": "Michael F. Joseph",
-    "section": "Courses Delivered to Government",
-    "text": "Courses Delivered to Government\n\nMilitary Applications of Data Science — U.S. Department of War\nInterstate Conflict — U.S. Army and civilian pre-conflict zone deployment.\n\nAsia–Pacific Security — U.S. Army and civilian pre-conflict zone deployment.\n\nDecision Making in Crisis — U.S. Army and civilian pre-conflict zone deployment."
-  },
-  {
-    "objectID": "policy.html#select-policy-experience",
-    "href": "policy.html#select-policy-experience",
-    "title": "Michael F. Joseph",
-    "section": "Select Policy Experience",
-    "text": "Select Policy Experience\nDirector of Research & Evaluation — Performance Systems Inc., Washington, DC · 2015–2017 Designed randomized trials, surveys, and evaluations of U.S. government overseas programs; trained 350+ military and civilian personnel on decision-making and threat analysis in conflict zones.\nAnalyst for Policy & Programs — Management Systems International, Baghdad & Washington, DC · 2010–2013 Supported a USAID project to rebuild the Iraqi civil service; built the statistical cost-measurement tools underpinning the first U.S.–Iraq Memorandum of Understanding on civil-service reform.\nPublic Policy Consultant — Various departments · 2008–2010 Built risk-assessment frameworks and large-scale workforce analytics across 60 public-sector departments.\nJunior Professional Officer — United Nations, Amman, Jordan · 2006–2007 Developed indicators and surveys that informed an overhaul of education programs for 400 schools and 40,000+ refugee students across four countries."
-  },
-  {
-    "objectID": "GIT_GUIDE.html",
-    "href": "GIT_GUIDE.html",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "In plain English: git keeps a complete history of your files, and GitHub stores that history in the cloud. That gives you two things at once — a permanent backup (so a dead laptop can’t lose your site) and free hosting for the live website. We’ll use GitHub Desktop, a click-based app, so you won’t touch the command line for any of the git steps.\nReassurance: your files are already backed up in Dropbox right now. GitHub adds a second, versioned backup plus the hosting.\n\n\n\n\n\nCreate a free account at github.com.\nInstall GitHub Desktop from desktop.github.com, and sign in.\nTo build the site you also need Quarto (quarto.org/docs/get-started) and, in R, run once: install.packages(\"yaml\"). (You already use R.)\n\n\n\n\n\n\nOpen GitHub Desktop → File → Add local repository.\nChoose this folder: C:\\Users\\micha\\Dropbox\\website\\site\nIt will say “this isn’t a git repository — create one?” → click Create a repository → leave the defaults → Create repository. (A .gitignore is already in the folder, so build junk is skipped.)\nClick Publish repository (top-right). Name it e.g. michaelfjoseph-site. You can keep it Private — GitHub Pages still works — then Publish.\n\n✅ Your whole site is now backed up on GitHub. That’s the “never lose it” part done.\n\n\n\n\nTwo separate things happen here — one you type in R, one you click.\na) The one thing you type in R. Open RStudio. Find the Console pane (bottom-left, where R waits for input). Click into it, type this, press Enter — one time only:\ninstall.packages(\"yaml\")\nLet it finish (it prints messages, then a fresh &gt; prompt). That is the only thing you type in R.\nb) Build the site — this is Quarto, driven by RStudio’s buttons (Quarto is a separate program, not an R package). 1. Install Quarto if you don’t have it: https://quarto.org/docs/get-started/. (Recent RStudio bundles it — if the Render button appears in step 4, you’re set.) 2. In RStudio: File → New Project… → Existing Directory → browse to C:\\Users\\micha\\Dropbox\\website\\site → Create Project. RStudio now “sees” the site. 3. In the Files pane (bottom-right), click index.qmd to open it. 4. Click the Render button at the top of the editor — or, to build every page, open the Build tab (top-right pane) and click Render Website. 5. RStudio builds the pages into the docs/ folder and opens a live preview.\n\nNo Render button? Quarto isn’t installed yet — do step b1, restart RStudio, retry. Prefer no RStudio? Open a terminal in the site folder and run quarto render.\n\n\n\n\n\n\nBack in GitHub Desktop you’ll see the newly built files listed. Type a short summary (e.g. “build site”), click Commit to main, then Push origin.\nOn github.com, open your repo → Settings → Pages.\nUnder Build and deployment: Source = Deploy from a branch; Branch = main, folder = /docs → Save.\nWait ~1 minute — your site goes live at https://&lt;username&gt;.github.io/&lt;repo&gt;/.\n\n\n\n\n\nYour domain is currently on Wix. When you want to switch it over: 1. Repo Settings → Pages → Custom domain → enter www.michaelfjoseph.com → Save. 2. At your domain registrar, add the DNS records GitHub shows (a CNAME to &lt;username&gt;.github.io, plus the apex A records). 3. After DNS propagates, tick Enforce HTTPS.\n\nTell me when you reach this step and I’ll give you the exact records to paste.\n\n\n\n\n\n\nEdit a .qmd file (or add a paper in _data/publications.yml).\nRender (RStudio “Render” button, or quarto render).\nIn GitHub Desktop: Commit → Push. Live in ~1 minute.\n\n\n\n\nOnce you’re comfortable, a single command does render + publish in one go:\nquarto publish gh-pages\nTip: commit often — every commit is a restore point you can roll back to."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#is-git-hard-short-answer-no-the-way-well-do-it",
-    "href": "GIT_GUIDE.html#is-git-hard-short-answer-no-the-way-well-do-it",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "In plain English: git keeps a complete history of your files, and GitHub stores that history in the cloud. That gives you two things at once — a permanent backup (so a dead laptop can’t lose your site) and free hosting for the live website. We’ll use GitHub Desktop, a click-based app, so you won’t touch the command line for any of the git steps.\nReassurance: your files are already backed up in Dropbox right now. GitHub adds a second, versioned backup plus the hosting."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#one-time-setup-20-minutes",
-    "href": "GIT_GUIDE.html#one-time-setup-20-minutes",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Create a free account at github.com.\nInstall GitHub Desktop from desktop.github.com, and sign in.\nTo build the site you also need Quarto (quarto.org/docs/get-started) and, in R, run once: install.packages(\"yaml\"). (You already use R.)"
-  },
-  {
-    "objectID": "GIT_GUIDE.html#step-1-put-the-site-under-version-control-click-based",
-    "href": "GIT_GUIDE.html#step-1-put-the-site-under-version-control-click-based",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Open GitHub Desktop → File → Add local repository.\nChoose this folder: C:\\Users\\micha\\Dropbox\\website\\site\nIt will say “this isn’t a git repository — create one?” → click Create a repository → leave the defaults → Create repository. (A .gitignore is already in the folder, so build junk is skipped.)\nClick Publish repository (top-right). Name it e.g. michaelfjoseph-site. You can keep it Private — GitHub Pages still works — then Publish.\n\n✅ Your whole site is now backed up on GitHub. That’s the “never lose it” part done."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#step-2-build-the-site-turn-.qmd-files-into-html-in-docs",
-    "href": "GIT_GUIDE.html#step-2-build-the-site-turn-.qmd-files-into-html-in-docs",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Two separate things happen here — one you type in R, one you click.\na) The one thing you type in R. Open RStudio. Find the Console pane (bottom-left, where R waits for input). Click into it, type this, press Enter — one time only:\ninstall.packages(\"yaml\")\nLet it finish (it prints messages, then a fresh &gt; prompt). That is the only thing you type in R.\nb) Build the site — this is Quarto, driven by RStudio’s buttons (Quarto is a separate program, not an R package). 1. Install Quarto if you don’t have it: https://quarto.org/docs/get-started/. (Recent RStudio bundles it — if the Render button appears in step 4, you’re set.) 2. In RStudio: File → New Project… → Existing Directory → browse to C:\\Users\\micha\\Dropbox\\website\\site → Create Project. RStudio now “sees” the site. 3. In the Files pane (bottom-right), click index.qmd to open it. 4. Click the Render button at the top of the editor — or, to build every page, open the Build tab (top-right pane) and click Render Website. 5. RStudio builds the pages into the docs/ folder and opens a live preview.\n\nNo Render button? Quarto isn’t installed yet — do step b1, restart RStudio, retry. Prefer no RStudio? Open a terminal in the site folder and run quarto render."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#step-3-turn-on-the-live-website-github-pages",
-    "href": "GIT_GUIDE.html#step-3-turn-on-the-live-website-github-pages",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Back in GitHub Desktop you’ll see the newly built files listed. Type a short summary (e.g. “build site”), click Commit to main, then Push origin.\nOn github.com, open your repo → Settings → Pages.\nUnder Build and deployment: Source = Deploy from a branch; Branch = main, folder = /docs → Save.\nWait ~1 minute — your site goes live at https://&lt;username&gt;.github.io/&lt;repo&gt;/."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#step-4-point-michaelfjoseph.com-at-it-when-youre-ready",
-    "href": "GIT_GUIDE.html#step-4-point-michaelfjoseph.com-at-it-when-youre-ready",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Your domain is currently on Wix. When you want to switch it over: 1. Repo Settings → Pages → Custom domain → enter www.michaelfjoseph.com → Save. 2. At your domain registrar, add the DNS records GitHub shows (a CNAME to &lt;username&gt;.github.io, plus the apex A records). 3. After DNS propagates, tick Enforce HTTPS.\n\nTell me when you reach this step and I’ll give you the exact records to paste."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#your-everyday-update-loop-after-setup",
-    "href": "GIT_GUIDE.html#your-everyday-update-loop-after-setup",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Edit a .qmd file (or add a paper in _data/publications.yml).\nRender (RStudio “Render” button, or quarto render).\nIn GitHub Desktop: Commit → Push. Live in ~1 minute."
-  },
-  {
-    "objectID": "GIT_GUIDE.html#even-simpler-later-optional",
-    "href": "GIT_GUIDE.html#even-simpler-later-optional",
-    "title": "Publishing & backing up your site with GitHub",
-    "section": "",
-    "text": "Once you’re comfortable, a single command does render + publish in one go:\nquarto publish gh-pages\nTip: commit often — every commit is a restore point you can roll back to."
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Michael F. Joseph",
-    "section": "",
-    "text": "I teach on intelligence, technology, data science, and international security — at UC San Diego.\n\nSpies: Intelligence and U.S. National Security (undergraduate)\nTheories of Technology and National Security (undergraduate)\nData Science for National Security (undergraduate; cross-listed with the Data Science program)\nField Seminar in International Security (Ph.D. seminar)"
-  },
-  {
-    "objectID": "courses.html#university-of-california-san-diego",
-    "href": "courses.html#university-of-california-san-diego",
-    "title": "Michael F. Joseph",
-    "section": "",
-    "text": "I teach on intelligence, technology, data science, and international security — at UC San Diego.\n\nSpies: Intelligence and U.S. National Security (undergraduate)\nTheories of Technology and National Security (undergraduate)\nData Science for National Security (undergraduate; cross-listed with the Data Science program)\nField Seminar in International Security (Ph.D. seminar)"
-  },
-  {
-    "objectID": "courses.html#courses-delivered-to-government",
-    "href": "courses.html#courses-delivered-to-government",
-    "title": "Michael F. Joseph",
-    "section": "Courses Delivered to Government",
-    "text": "Courses Delivered to Government\nPreviously, I taught several courses to members of the foreign policy community.\n\nMilitary Applications of Data Science — U.S. Department of War\nInterstate Conflict — U.S. Army and civilian pre-conflict zone deployment.\n\nAsia–Pacific Security — U.S. Army and civilian pre-conflict zone deployment.\n\nDecision Making in Crisis — U.S. Army and civilian pre-conflict zone deployment."
-  },
-  {
-    "objectID": "advice.html",
-    "href": "advice.html",
-    "title": "Advice for Students",
-    "section": "",
-    "text": "Short, practical posts for students — on research, writing, methods, and navigating the field. I’ll add to this over time.\nPosts coming soon."
-  },
-  {
-    "objectID": "fun-docs.html",
-    "href": "fun-docs.html",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "From time to time I come across fun or interesting archival documents. I’ve started collecting them here.\n\n\nPandas are adorable. Did you know they helped thaw U.S.-China relations in the 1950s? DCI Dulles passion for pandas triggered a sequence of curious events that led pandas to fill our zoos and bring the US and China closer together. Read the document\n\n\n\nA CIA-led experiment reporting that one subject displayed paranormal abilities of telekinesis — in particular, that he could heat objects by touching them. Read the document\n\n\n\nThe Federation of American Scientists review CIA/military programs testing whether humans can perceive distant objects — a little like Professor X in X-Men. The report says—probably. Some subjects’ estimates were accurate beyond what chance would predict. Read the document\n\n\n\nBefore Trump’s recent military declassification, the CIA had given us a glimpse into their own rearch. Interestingly, the Soviets and the PRC ran dedicated UFO programs of their own — and the CIA worked hard to spy on them. Read the document\n\n\n\nThis year, the IARPA program “Smart e-Pants” awarded $22 million to build underwear.\n\n\n\nDid you know that the CIA runs In-Q-tel an angel investor for cutting edge tech? They fund a Jurrasic Park firm that creates extinct animals; and The Cowboy Space Co. that can power objects on earth from outerspace."
-  },
-  {
-    "objectID": "fun-docs.html#panda-diplomacy",
-    "href": "fun-docs.html#panda-diplomacy",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "Pandas are adorable. Did you know they helped thaw U.S.-China relations in the 1950s? DCI Dulles passion for pandas triggered a sequence of curious events that led pandas to fill our zoos and bring the US and China closer together. Read the document"
-  },
-  {
-    "objectID": "fun-docs.html#telekinesis",
-    "href": "fun-docs.html#telekinesis",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "A CIA-led experiment reporting that one subject displayed paranormal abilities of telekinesis — in particular, that he could heat objects by touching them. Read the document"
-  },
-  {
-    "objectID": "fun-docs.html#remote-viewing",
-    "href": "fun-docs.html#remote-viewing",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "The Federation of American Scientists review CIA/military programs testing whether humans can perceive distant objects — a little like Professor X in X-Men. The report says—probably. Some subjects’ estimates were accurate beyond what chance would predict. Read the document"
-  },
-  {
-    "objectID": "fun-docs.html#ufos",
-    "href": "fun-docs.html#ufos",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "Before Trump’s recent military declassification, the CIA had given us a glimpse into their own rearch. Interestingly, the Soviets and the PRC ran dedicated UFO programs of their own — and the CIA worked hard to spy on them. Read the document"
-  },
-  {
-    "objectID": "fun-docs.html#million-underpants",
-    "href": "fun-docs.html#million-underpants",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "This year, the IARPA program “Smart e-Pants” awarded $22 million to build underwear."
-  },
-  {
-    "objectID": "fun-docs.html#the-cias-hedge-fund.",
-    "href": "fun-docs.html#the-cias-hedge-fund.",
-    "title": "Fun Documents",
-    "section": "",
-    "text": "Did you know that the CIA runs In-Q-tel an angel investor for cutting edge tech? They fund a Jurrasic Park firm that creates extinct animals; and The Cowboy Space Co. that can power objects on earth from outerspace."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Michael F. Joseph",
     "section": "",
     "text": "Michael F. Joseph\nInternational Relations · U.S. Foreign Policy · Applied Methodology\n\nWelcome! I am an Assistant Professor of Political Science (and Data Science, by courtesy), at UC San Diego.\nI am impassioned by long-standing theoretical puzzles of consequence to U.S national security. I have two broad agendas: integrating normative motivations and complex threat estimates into rational theories of international relations; and the promise and perils of National Security innovation. Multiple projects shed light on my general strategic theories through surveys, survey experiments and in-depth interviews with foreign policy elites; including the Deputy Director of the CIA, the Director of National Intelligence, Deputy Assistant Secretary of State, etc.\nMy research is funded by the National Science Foundation, has won multiple APSA section awards, and is published in leading political science journals. My book The Origins of Great Power Rivalries is published by Cambridge University Press. My findings have policy impact via regularly briefing to members of the National Security Community, and public-facing policy articles."
+  },
+  {
+    "objectID": "teaching-learning.html",
+    "href": "teaching-learning.html",
+    "title": "Teaching/Learning",
+    "section": "",
+    "text": "This page has moved. See Courses and Advice for Students."
   },
   {
     "objectID": "research.html",
@@ -214,6 +46,6 @@
     "href": "research.html#research-grants-fellowships",
     "title": "Michael F. Joseph",
     "section": "Research Grants & Fellowships",
-    "text": "Research Grants & Fellowships\n\nGrants\n\nNational Science Foundation Security & preparedness Program. $450,000.\nSar & Britta Levitan Endowmen. $20,000\nHerbst Family Graduate Endowment. $20,000.\n\n\n\nIn-Residence Research Fellowships\n\nAustralian National University, Research School of Social Sciences, In-Residence Fellowship.\nBradley Fellow in Foreign Policy."
+    "text": "Research Grants & Fellowships\n\nGrants\n\nNational Science Foundation Security & Preparedness Program. $450,000.\nSar & Britta Levitan Endowmen. $20,000\nHerbst Family Graduate Endowment. $20,000.\n\n\n\nIn-Residence Research Fellowships\n\nAustralian National University, Research School of Social Sciences, In-Residence Fellowship.\nBradley Fellow in Foreign Policy."
   }
 ]

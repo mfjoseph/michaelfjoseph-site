@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <div class="blurb"><p class="q">“In <i>The Origins of Great Power Rivalries</i>, Michael F. Joseph *cogently explains why status quo states often take ‘too long’ to respond to rising challengers.* Joseph theorizes that declining powers judge the challenger’s actions against a historically informed and articulated principle announced by the latter: only when actions deviate from this principle does the defender learn the challenger has more expansive goals and turns to competition. Joseph explains not only past cases but *sheds important light on contemporary US–China relations.*”</p><p class="who">David A. Lake<span>Distinguished Professor of the Graduate Division, UC San Diego</span></p></div>
 
-<div class="blurb"><p class="q">“Michael F. Joseph sheds valuable new light on a *central question of international relations theory.* He explains that understanding why an adversary wants to expand enables a state to make calibrated decisions about how intensely to compete or cooperate. Joseph supports his nuanced theory with an *impressive array of empirical tests*. <i>The Origins of Great Power Rivalries</i> makes a *major contribution to IR theory.* ”</p><p class="who">Charles Glaser<span>Senior Fellow, Security Studies Program, MIT</span></p></div>
+<div class="blurb"><p class="q">“Michael F. Joseph sheds *valuable new light on a central question of international relations theory.* He explains that understanding why an adversary wants to expand enables a state to make calibrated decisions about how intensely to compete or cooperate. Joseph supports his nuanced theory with an *impressive array of empirical tests*. <i>The Origins of Great Power Rivalries</i> makes a *major contribution to IR theory.* ”</p><p class="who">Charles Glaser<span>Senior Fellow, Security Studies Program, MIT</span></p></div>
 
 <div class="blurb"><p class="q">“The book makes an *important contribution to the theory of international relations.* One explanation of why Britain decided to fight Hitler when he took the rest of Czechoslovakia is that it did not fit with a nationalist German program but signaled more extensive ambitions. *Joseph formalizes and generalizes this core insight* and shows that *it applies in a number of other important cases over the past 200 years of international history.*”</p><p class="who">Andrew H. Kydd<span>Professor of International Relations, University of Wisconsin</span></p></div>
 
@@ -148,7 +148,7 @@ render_pubs("working_papers")
 
 
 #### Grants
-- National Science Foundation Security \& preparedness Program. \$450,000.
+- National Science Foundation Security \& Preparedness Program. \$450,000.
 - Sar \& Britta Levitan Endowmen. \$20,000
 - Herbst Family Graduate Endowment. \$20,000.
  
