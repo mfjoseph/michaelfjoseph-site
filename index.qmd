@@ -16,9 +16,7 @@ toc: false
 
 <div class="cover-copy">
 
-Welcome! I am an Assistant Professor of Political Science (and Data Science, by courtesy), at UC San Diego.
-
-I am impassioned by long-standing theoretical puzzles of consequence to U.S national security. I have two broad agendas: integrating normative motivations and complex threat estimates into rational theories of international relations; and the promise and perils of National Security innovation. Multiple projects shed light on my general strategic theories through surveys, survey experiments and in-depth interviews with foreign policy elites; including the Deputy Director of the CIA, the Director of National Intelligence, Deputy Assistant Secretary of State, etc.
+Welcome! I am an Assistant Professor of Political Science (and Data Science, by courtesy), at UC San Diego. I am passionate about using research to understanding pressing questions for U.S. national security. I have two broad agendas: integrating normative motivations into rational theories of great power relations; and the promise and perils of National Security innovation. Multiple projects shed light on my general strategic theories through surveys, survey experiments and in-depth interviews with foreign policy elites; including the Deputy Director of the CIA, the Director of National Intelligence, Deputy Assistant Secretary of State, etc.
 
 My research is funded by the National Science Foundation, has won multiple APSA section awards, and is published in leading political science journals. My book *The Origins of Great Power Rivalries* is published by Cambridge University Press. My findings have policy impact via regularly briefing to members of the National Security Community, and public-facing policy articles.
 
