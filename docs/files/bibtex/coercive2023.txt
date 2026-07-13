@@ -1,9 +1,0 @@
-@article{coercive2023,
-  author  = {Joseph, Michael F.},
-  title   = {Do Different Coercive Strategies Help or Hurt Deterrence Success?},
-  journal = {International Studies Quarterly},
-  volume  = {67},
-  number  = {2},
-  year    = {2023},
-  keywords= {peer}
-}
