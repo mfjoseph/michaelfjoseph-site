@@ -1,0 +1,7 @@
+@book{joseph2026origins,
+  author    = {Joseph, Michael F.},
+  title     = {The Origins of Great Power Rivalries},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2026}
+}

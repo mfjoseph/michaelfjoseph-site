@@ -1,0 +1,9 @@
+@article{powershifts2025,
+  author  = {Joseph, Michael F. and Frendem, Mathias and Spaniel, William},
+  title   = {Explaining Peace During Long and Rapid Power Shifts: A Theory of Grand Bargains},
+  journal = {British Journal of Political Science},
+  volume  = {55},
+  number  = {e47},
+  year    = {2025},
+  keywords= {peer}
+}

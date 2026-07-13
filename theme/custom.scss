@@ -143,6 +143,8 @@ body:has(.cover) { background: #000; }   // whole homepage black — no light ga
   color: #c4c9d1; font-size: .85rem; line-height: 1.55;
 }
 .cover-copy em { color: $dark-text; font-style: italic; }
+.cover-copy a { color: $pink-bright; text-decoration: underline; text-underline-offset: 2px; }
+.cover-copy a:hover { color: #fff; }
 .cover-connect { margin-top: 1.9rem; display: flex; gap: 1.15rem; align-items: center; flex-wrap: wrap; }
 .cover-connect a { color: $dark-dim; font-size: 1.3rem; line-height: 1; display: inline-flex; align-items: center; }
 .cover-connect a:hover { color: $pink-bright; }

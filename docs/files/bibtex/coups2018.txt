@@ -1,0 +1,10 @@
+@article{coups2018,
+  author  = {Joseph, Michael F. and Miller, Michael K. and Ohl, Dorothy},
+  title   = {Are Coups Really Contagious? An Extreme Bounds Analysis of Political Diffusion},
+  journal = {Journal of Conflict Resolution},
+  volume  = {62},
+  number  = {2},
+  pages   = {410--441},
+  year    = {2018},
+  keywords= {peer}
+}
